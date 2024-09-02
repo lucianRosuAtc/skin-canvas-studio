@@ -27,7 +27,6 @@ const HeroSlider = () => {
         <div className="absolute inset-0 flex items-end justify-center space-x-4 mb-20">
           {images.map((image, index) => (
 
-
 //  Changes aplied to the card image 
             <div
               key={index}
