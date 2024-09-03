@@ -30,13 +30,13 @@ const HeroSlider = () => {
 //  Changes aplied to the card image 
             <div
               key={index}
-              className={`w-[200px] h-[300px] bg-cover bg-center rounded-lg shadow-lg cursor-pointer transition-transform duration-500 ease-in-out ${index === currentIndex ? 'border border-blue-500 mb-4  delay-700' : ''
+              className={`w-10 lg:w-[130px] h-10 lg:h-[130px] bg-cover bg-center rounded-full shadow-lg cursor-pointer transition-transform duration-500 ease-in-out ${index === currentIndex ? 'border-2 border-blue-500 mb-3 delay-700' : ''
                 }`}
               style={{ backgroundImage: `url(${image.url})` }}
               onClick={() => handleImageClick(index)}
             >
               {index === currentIndex && (
-                <div className="absolute top-[40%] left-24 right-24 transform -translate-y-1/2 text-white text-left">
+                <div className="absolute top-[70%] lg:top-[40%] left-10 lg:left-24 right-24 transform -translate-y-1/2 text-white text-left transition-all duration-700">
                   <div className="text-4xl font-bold uppercase">{image.name}</div>
                   <div className="mt-2 mb-4">{image.description}</div>
                   <button className="px-4 py-2 bg-blue-500 text-white rounded">See More</button>
@@ -47,16 +47,16 @@ const HeroSlider = () => {
         </div>
         <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex space-x-4">
           <button
-            className="w-10 h-10 flex items-center justify-center bg-white border border-black rounded hover:bg-gray-300 transition"
+            className="w-10 h-10 flex items-center justify-center border-2 border-blue-500 rounded-full hover:bg-blue-500 transition-all"
             onClick={handlePrev}
           >
-            <ArrowLeft />
+            <ArrowLeft className='text-white'/>
           </button>
           <button
-            className="w-10 h-10 flex items-center justify-center bg-white border border-black rounded hover:bg-gray-300 transition"
+            className="w-10 h-10 flex items-center justify-center border-2 border-blue-500 rounded-full hover:bg-blue-500 transition-all"
             onClick={handleNext}
           >
-            <ArrowRight />
+            <ArrowRight className='text-white'/>
           </button>
         </div>
       </div>

@@ -24,9 +24,9 @@ export const images = [
         name: 'Netherland',
         description: 'Qui esse expedita praesentium repellat quis fugiat accusamus aspernatur consequuntur nihil quae dicta quod aliquam recusandae placeat vitae.',
     },
-    {
-        url: 'https://i.ibb.co/RNkk6L0/img6.jpg',
-        name: 'Ireland',
-        description: 'Reprehenderit cumque deserunt? Asperiores nostrum mollitia modi ipsam nam, magni assumenda nobis blanditiis.reprehenderit cumque deserunt? Asperiores nostrum mollitia modi ipsam nam, magni assumenda.',
-    },
+    // {
+    //     url: 'https://i.ibb.co/RNkk6L0/img6.jpg',
+    //     name: 'Ireland',
+    //     description: 'Reprehenderit cumque deserunt? Asperiores nostrum mollitia modi ipsam nam, magni assumenda nobis blanditiis.reprehenderit cumque deserunt? Asperiores nostrum mollitia modi ipsam nam, magni assumenda.',
+    // },
 ];
