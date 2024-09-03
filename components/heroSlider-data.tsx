@@ -1,6 +1,5 @@
 export const images = [
     {
-        // url: '/img/asian/asian arm tattoo.jpg',
         url: '/img/asian/asianArmTatoo.jpg',
         name: 'Asian',
         description: 'Welcome to SkinCanvas Studio - Where Art Meets Skin. Transform Your Body into a Living Masterpiece with Our Award-Winning Artists. Precision, Passion, and Creativity in Every Stroke.',
