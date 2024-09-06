@@ -1,12 +1,11 @@
+import Hero from "@/components/Hero";
 import HeroSlider from "@/components/HeroSlider";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
+    <main className="">
       <HeroSlider />
-   
-
+      <Hero />
 
     </main>
   );

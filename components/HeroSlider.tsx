@@ -1,7 +1,10 @@
+
 'use client'
 import React, { useState } from 'react';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
-import { images } from './heroSlider-data';
+import { images } from './(data)/heroSlider-data';
+import Link from 'next/link';
+import { lora } from './fonts' 
 
 const HeroSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -19,9 +22,9 @@ const HeroSlider = () => {
   };
 
   return (
-    <div className="relative w-full h-screen flex items-center justify-center bg-gray-200 overflow-hidden">
+    <div className="relative flex items-center justify-center overflow-hidden">
       <div
-        className="relative w-[1920px] h-[910px] bg-gray-100 bg-opacity-75 shadow-lg"
+        className="relative w-[1920px] h-[600px] md:h-[750px] shadow-lg"
         style={{ backgroundImage: `url(${images[currentIndex].url})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
       >
         <div className="absolute inset-0 flex items-end justify-center space-x-4 mb-20">
@@ -30,16 +33,16 @@ const HeroSlider = () => {
 //  Changes aplied to the card image 
             <div
               key={index}
-              className={`w-10 lg:w-[130px] h-10 lg:h-[130px] bg-cover bg-center rounded-full shadow-lg cursor-pointer transition-transform duration-500 ease-in-out ${index === currentIndex ? 'border-2 border-blue-500 mb-3 delay-700' : ''
+              className={`w-10 md:w-20 lg:w-32 h-10 md:h-20 lg:h-32 bg-cover bg-center rounded-full shadow-lg cursor-pointer transition-transform duration-500 ease-in-out ${index === currentIndex ? 'border-2 border-blue-500 mb-3 delay-700' : ''
                 }`}
               style={{ backgroundImage: `url(${image.url})` }}
               onClick={() => handleImageClick(index)}
             >
               {index === currentIndex && (
-                <div className="absolute top-[70%] lg:top-[40%] left-10 lg:left-24 right-24 transform -translate-y-1/2 text-white text-left transition-all duration-700">
+                <div className="absolute top-[70%] lg:top-[40%] left-10 lg:left-24 right-24 transform -translate-y-3/4 lg:-translate-y-1/4  text-white text-left transition-all duration-700">
                   <div className="text-4xl font-bold uppercase">{image.name}</div>
-                  <div className="mt-2 mb-4">{image.description}</div>
-                  <button className="px-4 py-2 bg-blue-500 text-white rounded">See More</button>
+                  <div className={`mt-2 mb-4 text-sm md:text-2xl ${lora.className}`}>{image.description}</div>
+                  <button className="px-4 py-2 bg-blue-500 text-white rounded"><Link href="/Gallery">See More</Link></button>
                 </div>
               )}
             </div>
