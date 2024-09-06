@@ -3,8 +3,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { lora, dancing } from './fonts';
-import { heroData, artistsData } from './(data)/hero-data';
+import { heroData } from './(data)/hero-data';
 
+import Card3D from './Card3D';
 
 export default function Hero() {
   return (
@@ -23,7 +24,7 @@ export default function Hero() {
           <div key={hero.title} className='border rounded-lg shadow-lg'>
             <div className=" px-5 py-10">
               <h4>{hero.title}</h4>
-              <p>{hero.desc}</p>
+              <p className='mt-3'>{hero.desc}</p>
             </div>
           </div>
         ))}
@@ -32,14 +33,7 @@ export default function Hero() {
       <div className="max-w-screen-2xl mx-auto  my-20">
         <div className="border rounded-lg shadow-lg mx-8">
           <h2 className="pl-10 pt-10 text-bold text-5xl">Featured Artists</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-10 gap-12">
-            {artistsData.map((artist) => (
-              <div key={artist.image}>
-                <Image src={artist.image} alt="tattoo" width={300} height={100} className="my-5 rounded-lg" />
-                <p className="">{artist.desc}</p>
-              </div>
-            ))}
-          </div>
+          <Card3D />
         </div>
       </div>
 
