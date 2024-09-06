@@ -1,5 +1,6 @@
-import Hero from "@/components/Hero";
-import HeroSlider from "@/components/HeroSlider";
+import React from "react";
+import Hero from "../components/Hero";
+import HeroSlider from "../components/HeroSlider";
 
 export default function Home() {
   return (
