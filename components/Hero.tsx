@@ -34,7 +34,7 @@ export default function Hero() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-10 gap-12">
             {artistsData.map((artist) => (
               <div key={artist.image}>
-                <Image src={artist.image} alt="tattoo" width={300} height={100} className="py-5" />
+                <Image src={artist.image} alt="tattoo" width={300} height={100} className="my-5 rounded-lg" />
                 <p className="">{artist.desc}</p>
               </div>
             ))}
