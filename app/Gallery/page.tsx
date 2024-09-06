@@ -6,7 +6,7 @@ export default function Gallery() {
   return (
     <div>
      <h1 className=""> Gallery</h1>
-      <button className='bg-red-800 px-6 py-1 rounded-full'><Link href='/' >Home</Link></button>
+     <Link href='/' ><button className='bg-red-800 px-6 py-1 rounded-full'>Home</button></Link>
     </div>
   )
 }

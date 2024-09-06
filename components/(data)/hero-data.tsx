@@ -14,5 +14,5 @@ export const heroData = [
     {
         title:'Community Showcase',
         desc:'Share your ink and get inspired by other tattoo enthusiasts in our vibrant community.',
-    },
+    }
 ]

@@ -5,4 +5,4 @@ const lora = Lora({ subsets: ['latin'], weight: ['400', '700'] });
 const dancing = Dancing_Script({subsets: ['latin'], weight: ['400', '700']});
 
 
-export { lora, dancing}
+export { lora, dancing }

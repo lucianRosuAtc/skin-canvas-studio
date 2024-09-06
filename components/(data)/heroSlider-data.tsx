@@ -23,6 +23,6 @@ export const images = [
         url: '/img/moon/blood-moon-and-stars.jpg',
         name: 'Blood Moon realism tattoo',
         description: 'Blood Moon realism tattoo. Another futuristic style that is a mix of realism and fantasy. A original aproach to the moon for those atracted by the mistery of the night.',
-    },
+    }
 ];
 
