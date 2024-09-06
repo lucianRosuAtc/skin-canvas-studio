@@ -4,6 +4,7 @@ import React from 'react';
 import { lora, dancing } from './fonts';
 import { heroData } from './(data)/hero-data';
 
+
 export default function Hero() {
   return (
     <div>
