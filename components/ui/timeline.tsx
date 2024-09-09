@@ -26,7 +26,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ["start 10%", "end 50%"],
+    offset: ["start 10%", "end 30%"],
   });
 
   const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
@@ -34,24 +34,34 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10"
+      className="w-full bg-gray-50 dark:bg-neutral-950 font-sans md:px-10 pt-10 overflow-hidden"
       ref={containerRef}
     >
-      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
+      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10 border rounded-lg light:bg-white shadow-xl">
         <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-          Changelog from my journey
+          Our Story
         </h2>
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
-          a timeline of my journey.
+        <div className="w-full bg-primary h-[2px] my-4"></div>
+        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-3">
+          Skin Canvas Studio was born from a passion for tattoo artistry and a desire to create a platform that celebrates the diverse world of tattooing. Founded in 2019 by a group of tattoo enthusiasts and artists, our mission is to connect talented tattoo artists with clients who appreciate the art form.</p>
+        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
+          We believe that tattoos are more than just ink on skin - they&apos;re personal stories, expressions of identity, and works of art that last a lifetime. At Skin Canvas Studio, we&apos;re dedicated to elevating the tattoo experience for both artists and clients.
         </p>
       </div>
 
-      <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
+      <div ref={ref} className="relative max-w-7xl mx-auto pb-20 border mt-10 rounded-lg light:bg-white shadow-xl mb-10">
+
+        <div className="px-8 mt-8">
+          <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
+            Our Journey
+          </h2>
+          <div className="w-full bg-primary h-[2px] my-4"></div>
+        </div>
+
         {data.map((item, index) => (
           <div
             key={index}
-            className="flex justify-start pt-10 md:pt-40 md:gap-10"
+            className="flex justify-start pt-10 md:pt-20 md:gap-10"
           >
             <div className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">
               <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
@@ -81,7 +91,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-500 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full"
+            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-primary via-orange-500 to-transparent from-[0%] via-[10%] rounded-full"
           />
         </div>
       </div>

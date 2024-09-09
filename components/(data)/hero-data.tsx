@@ -60,7 +60,3 @@ export const artistsData = [
 
 
 
-// our story: Our Story InkFlow was born out of a passion for tattoo artistry and a desire to create a platform that celebrates the diverse world of body art. Founded in 2018 by a group of tattoo enthusiasts and artists, our mission is to bridge the gap between talented tattoo artists and those seeking unique, personalized body art. What started as a small online gallery has grown into a thriving community, connecting artists and clients from around the globe. We believe that every tattoo tells a story, and we&apos;re here to help those stories come to life.
-
-// "Get in Touch Have a question or ready to schedule your next tattoo? We'd love to hear from you! Address: 123 Ink Street, Tattoo City, TC 12345 Phone: (555) 123-4567 Email: info@inkflow.io Hours: Monday - Saturday, 10:00 AM - 8:00 PM",
-// name: 'Tattoo City',
