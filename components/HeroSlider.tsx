@@ -33,7 +33,7 @@ const HeroSlider = () => {
 //  Changes aplied to the card image 
             <div
               key={index}
-              className={`w-10 md:w-20 lg:w-32 h-10 md:h-20 lg:h-32 bg-cover bg-center rounded-full shadow-lg cursor-pointer transition-transform duration-500 ease-in-out ${index === currentIndex ? 'border-2 border-blue-500 mb-3 delay-700' : ''
+              className={`w-10 md:w-20 lg:w-32 h-10 md:h-20 lg:h-32 bg-cover bg-center rounded-full shadow-lg cursor-pointer transition-transform duration-500 ease-in-out ${index === currentIndex ? 'border-2 border-primary mb-3 delay-700' : ''
                 }`}
               style={{ backgroundImage: `url(${image.url})` }}
               onClick={() => handleImageClick(index)}
@@ -42,7 +42,7 @@ const HeroSlider = () => {
                 <div className="absolute top-[70%] lg:top-[40%] left-10 lg:left-24 right-24 transform -translate-y-3/4 lg:-translate-y-1/4  text-white text-left transition-all duration-700">
                   <div className="text-4xl font-bold uppercase">{image.name}</div>
                   <div className={`mt-2 mb-4 text-sm md:text-2xl ${lora.className}`}>{image.description}</div>
-                  <button className="px-4 py-2 bg-blue-500 text-white rounded"><Link href="/Gallery">See More</Link></button>
+                  {/* <button className="px-4 py-2 bg-blue-500 text-white rounded"><Link href="/Gallery">See More</Link></button> */}
                 </div>
               )}
             </div>
@@ -50,16 +50,16 @@ const HeroSlider = () => {
         </div>
         <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex space-x-4">
           <button
-            className="w-10 h-10 flex items-center justify-center border-2 border-blue-500 rounded-full hover:bg-blue-500 transition-all"
+            className="w-10 h-10 flex items-center justify-center border-2 border-primary rounded-full transition-all"
             onClick={handlePrev}
           >
-            <ArrowLeft className='text-white'/>
+            <ArrowLeft className='text-white hover:text-primary'/>
           </button>
           <button
-            className="w-10 h-10 flex items-center justify-center border-2 border-blue-500 rounded-full hover:bg-blue-500 transition-all"
+            className="w-10 h-10 flex items-center justify-center border-2 border-primary rounded-full transition-all"
             onClick={handleNext}
           >
-            <ArrowRight className='text-white'/>
+            <ArrowRight className='text-white hover:text-primary '/>
           </button>
         </div>
       </div>

@@ -6,12 +6,12 @@ import Link from 'next/link';
 
 export default function Card3D() {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grig-cols-3 p-10 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
             {artistsData.map((artist) => (
                 <div key={artist.image}>
 
                     <CardContainer className="inter-var">
-                        <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+                        <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[290px] h-auto rounded-xl p-6 border  ">
                             <CardItem
                                 translateZ="50"
                                 className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -29,8 +29,8 @@ export default function Card3D() {
                                 <Image
                                     src={artist.image}
                                     height="100"
-                                    width="300"
-                                    className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                                    width="250"
+                                    className="h-40 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                                     alt="thumbnail"
                                 />
                             </CardItem>
@@ -38,7 +38,7 @@ export default function Card3D() {
 
                             {/* MARK: Artist design style  
                             */}
-                            <div className="flex justify-between items-center mt-20">
+                            <div className="flex flex-wrap justify-between items-center mt-10 gap-2">
 
                                 <CardItem
                                     translateZ={20}
@@ -66,22 +66,14 @@ export default function Card3D() {
 
                             {/* MARK: Artist social media link  
                             */}
-                            <div className="flex justify-between items-center mt-20">
-                                <CardItem
-                                    translateZ={20}
-                                    as={Link}
-                                    href={artist.sm}
-                                    target="__blank"
-                                    className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
-                                >
-                                    Try now →
-                                </CardItem>
+                            <div className="flex justify-center items-center mt-10">
+                               
                                 <CardItem
                                     translateZ={20}
                                     as={Link}
                                     href="/Gallery"
-                                    target="__blank"
-                                    className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                                    target="_blank"
+                                    className="px-4 py-2 rounded-xl bg-primary text-center dark:text-black text-white text-xs font-bold w-40"
                                 >
                                     Gallery
                                 </CardItem>

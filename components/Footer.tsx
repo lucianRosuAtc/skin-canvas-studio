@@ -12,14 +12,16 @@ const year = date.getFullYear();
 export default function Footer() {
   const pathname = usePathname();
   return (
-    <div className="">
+    <div className="bg-gray-50 dark:bg-neutral-900">
       <div className="grid grid-cols-1 md:grid-cols-3 max-w-screen-2xl m-auto space-y-20 md:space-y-0">
-
-        <Image src="/img/bigCat/Lion1.jpg"
-          width={120}
-          height={120}
-          alt="Skin Canvas Studio Logo"
-          className="flex mx-auto rounded-full border-2 border-primary md:my-3 shadow-xl" />
+        <Link href="/">
+          <Image src="/img/bigCat/Lion1.jpg"
+            width={120}
+            height={120}
+            alt="Skin Canvas Studio Logo"
+            priority={true}
+            className="flex mx-auto rounded-full border-2 border-primary md:my-3 shadow-xl" />
+        </Link>
 
 
         <div className="flex gap-x-8 items-center justify-center md:-mt-5">
