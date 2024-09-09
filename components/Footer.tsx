@@ -12,7 +12,7 @@ const year = date.getFullYear();
 export default function Footer() {
   const pathname = usePathname();
   return (
-    <div className="bg-gray-50 dark:bg-neutral-900 pt-10">
+    <div className="bg-gray-50 dark:bg-neutral-900 pt-10 border-t-2 light:border-t-secondary dark:border-t-primary">
       <div className="grid grid-cols-1 md:grid-cols-3 max-w-screen-2xl m-auto space-y-20 md:space-y-0">
         <Link href="/">
           <Image src="/img/bigCat/Lion1.jpg"

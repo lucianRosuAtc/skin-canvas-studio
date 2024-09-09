@@ -6,7 +6,7 @@ export default function TeanAndMission() {
   return (
 
 
-    <div className='bg-gray-50 py-10'>
+    <div className='light:bg-gray-50 py-10'>
 
       {/* MARK: Team  */}
       <div className="max-w-7xl mx-auto py-20 my-12 px-4 md:px-8 lg:px-10 border rounded-lg light:bg-white shadow-xl">
@@ -14,38 +14,32 @@ export default function TeanAndMission() {
           Our Team
         </h2>
         <div className="w-full bg-primary h-[2px] my-4"></div>
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-3">
+        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
           Behind Skin Cavas Studio is a dedicated team of professionals who are passionate about tattoo art and committed to providing the best experience for our community.</p>
 
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {ourTeam.map((teamMember, index) => (
-
-          <div key={index} className="mx-auto m-2 p-2 border max-w-sm text-center rounded-xl">
-          
-
-            <Image
-              src={teamMember.image}
-              alt={teamMember.name}
-              width={96}
-              height={96}
-              className="w-24 h-24 rounded-full mx-auto my-3"
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {ourTeam.map((teamMember, index) => (
+            <div key={index} className="mx-auto max-w-sm m-2 p-2 border shadow-xl text-center rounded-xl">
+              <Image
+                src={teamMember.image}
+                alt={teamMember.name}
+                width={96}
+                height={96}
+                className="w-24 h-24 rounded-full mx-auto my-3"
               />
-            <h4 className="">
+              <h4 className="">
 
-              {teamMember.name}
-            </h4>
-            <h4 className="">
-              {teamMember.position}
-            </h4>
-            <p className="">
-            {teamMember.bio}
-            </p>
-
-          </div>
-           
-        ))}
-              </div>
+                {teamMember.name}
+              </h4>
+              <h4 className="">
+                {teamMember.position}
+              </h4>
+              <p className="">
+                {teamMember.bio}
+              </p>
+            </div>
+          ))}
+        </div>
 
       </div>
 
@@ -55,11 +49,11 @@ export default function TeanAndMission() {
           Our Mission
         </h2>
         <div className="w-full bg-primary h-[2px] my-4"></div>
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-3">
+        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-8">
           Behind Skin Canvas Studio is a dedicated team of professionals who are passionate about tattoo art and committed to providing the best experience for our community.</p>
 
         <h4>At InkFlow, our mission is to:</h4>
-        <ul className="">
+        <ul className="mt-4">
           <li>✅  Promote tattoo artistry as a respected and valued form of creative expression</li>
           <li>✅  Provide a platform for talented artists to showcase their work and connect with clients</li>
           <li>✅  Educate the public about tattoo safety, aftercare, and the artistic process</li>
