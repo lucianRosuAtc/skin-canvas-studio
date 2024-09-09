@@ -12,7 +12,7 @@ export default function Navbar() {
     <div className="h-20 flex justify-between">
       <div className="flex my-auto ml-20 space-x-6">
         {navigationlinks.map((navlink) => (
-          <Link className={`link hover:text-primary pb-1 ${pathname === navlink.url ? 'active' : ''}`}
+          <Link className={`link hover:text-primary pb-1 ${pathname === navlink.url ? 'border-b-2 border-b-primary transition-all' : ''}`}
             key={navlink.url}
             href={navlink.url}
           >

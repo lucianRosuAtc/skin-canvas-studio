@@ -89,7 +89,5 @@ h4{
   @apply text-base md:text-lg lg:text-xl font-bold;
 }
 
-.active{
-  @apply border-b-2 border-b-primary transition-all;
-}
+
 
