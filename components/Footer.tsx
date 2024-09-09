@@ -19,7 +19,6 @@ export default function Footer() {
             width={120}
             height={120}
             alt="Skin Canvas Studio Logo"
-            priority={true}
             className="flex mx-auto rounded-full border-2 border-primary md:my-3 shadow-xl" />
         </Link>
 

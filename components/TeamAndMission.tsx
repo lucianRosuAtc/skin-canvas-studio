@@ -6,7 +6,7 @@ export default function TeanAndMission() {
   return (
 
 
-    <div className='light:bg-gray-50 py-10'>
+    <div className=' py-10 w-full bg-gray-50 dark:bg-neutral-950 font-sans md:px-10'>
 
       {/* MARK: Team  */}
       <div className="max-w-7xl mx-auto py-20 my-12 px-4 md:px-8 lg:px-10 border rounded-lg light:bg-white shadow-xl">

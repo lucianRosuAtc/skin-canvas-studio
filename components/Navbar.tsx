@@ -16,7 +16,6 @@ export default function Navbar() {
             width={60}
             height={60}
             alt="Skin Canvas Studio Logo"
-            priority={true}
             className="flex mx-auto rounded-full border-2 border-primary shadow-xl" />
         </Link>
       <div className="flex my-auto ml-20 space-x-6">
