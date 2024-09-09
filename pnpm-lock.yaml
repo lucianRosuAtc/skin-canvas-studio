@@ -11,6 +11,9 @@ dependencies:
   '@radix-ui/react-slot':
     specifier: ^1.1.0
     version: 1.1.0(@types/react@18.3.5)(react@18.3.1)
+  '@tabler/icons-react':
+    specifier: ^3.15.0
+    version: 3.15.0(react@18.3.1)
   class-variance-authority:
     specifier: ^0.7.0
     version: 0.7.0
@@ -771,6 +774,19 @@ packages:
     dependencies:
       '@swc/counter': 0.1.3
       tslib: 2.7.0
+    dev: false
+
+  /@tabler/icons-react@3.15.0(react@18.3.1):
+    resolution: {integrity: sha512-EXIedaHiM4XcdZ8ml3pZeo5p/jetpXbwhDq9Zv3UVM8E3YACSww9TfCtEv3iBI74NI7mNz7Uua2qpNwwWljarg==}
+    peerDependencies:
+      react: '>= 16'
+    dependencies:
+      '@tabler/icons': 3.15.0
+      react: 18.3.1
+    dev: false
+
+  /@tabler/icons@3.15.0:
+    resolution: {integrity: sha512-Pzo7g8znsCgCcnSLCfukEV+kcfr0/VjBoCLXJtrOtaY94gtvYjWC2hrKzazf511asUflRuk/+dxztdKYJgpe4g==}
     dev: false
 
   /@types/json5@0.0.29:

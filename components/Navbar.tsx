@@ -11,12 +11,10 @@ export default function Navbar() {
   return (
     <div className="h-20 flex justify-between">
       <div className="flex my-auto ml-20 space-x-6">
-        {/* <Link href="/">Home</Link>
-        <Link href="/Gallery">Gallery</Link> */}
         {navigationlinks.map((navlink) => (
-          <Link className = {`link hover:text-primary pb-1 ${pathname === navlink.url? 'active' : '' }`}
-          key = {navlink.url}
-          href = {navlink.url}
+          <Link className={`link hover:text-primary pb-1 ${pathname === navlink.url ? 'active' : ''}`}
+            key={navlink.url}
+            href={navlink.url}
           >
             {navlink.name}
           </Link>
@@ -29,19 +27,3 @@ export default function Navbar() {
   )
 }
 
-
-
-
-//   return (
-//     <div className="hidden xl:flex gap-x-8 items-center">
-//       {navigationlinks.map((navlink) => (
-//       <Link className={`link hover:text-primary pb-1 ${pathname === navlink.url ? 'active' : ''}`}
-//           key={navlink.url}
-//           href={navlink.url}
-//         >
-//           {navlink.name}
-//         </Link>
-//       ))}
-//     </div>
-//   );
-// }
