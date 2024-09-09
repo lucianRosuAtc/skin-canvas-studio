@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import React from "react";
 import { ThemeProvider } from "../components/ThemeProvider"
+import ScrollToTopButton from "../components/ScrollToTopBtn";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
       <ThemeProvider attribute="class" defaultTheme="system">
         <Navbar />
         {children}
+        <ScrollToTopButton /> 
         <Footer />
         </ThemeProvider>
       </body>

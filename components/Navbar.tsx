@@ -10,14 +10,14 @@ import Image from "next/image";
 export default function Navbar() {
   const pathname = usePathname();
   return (
-    <div className="h-20 flex justify-between">
+    <div className="hidden md:flex justify-between light:bg-gray-200 h-20 border-b-2 border-b-primary ">
         <Link href="/" className="flex ml-16 items-center justify-center">
           <Image src="/img/bigCat/Lion1.jpg"
             width={60}
             height={60}
             alt="Skin Canvas Studio Logo"
             priority={true}
-            className="flex mx-auto rounded-full border-2 border-primary   shadow-xl" />
+            className="flex mx-auto rounded-full border-2 border-primary shadow-xl" />
         </Link>
       <div className="flex my-auto ml-20 space-x-6">
         {navigationlinks.map((navlink) => (
