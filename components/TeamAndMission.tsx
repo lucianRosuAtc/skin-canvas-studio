@@ -6,10 +6,10 @@ export default function TeanAndMission() {
   return (
 
 
-    <div className=' py-10 w-full bg-gray-50 dark:bg-neutral-950 font-sans md:px-10'>
+    <div className=' pt-1 pb-16 w-full bg-gray-50 dark:bg-neutral-950 font-sans md:px-10'>
 
       {/* MARK: Team  */}
-      <div className="max-w-7xl mx-auto py-20 my-12 px-4 md:px-8 lg:px-10 border rounded-lg light:bg-white shadow-xl">
+      <div className="max-w-7xl mx-auto py-20 mb-16 mt-6 px-4 md:px-8 lg:px-10 border rounded-lg light:bg-white shadow-xl">
         <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
           Our Team
         </h2>
@@ -19,7 +19,7 @@ export default function TeanAndMission() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {ourTeam.map((teamMember, index) => (
-            <div key={index} className="mx-auto max-w-sm m-2 p-2 border shadow-xl text-center rounded-xl">
+            <div key={index} className="mx-auto max-w-sm my-2 p-2 border shadow-xl text-center rounded-xl">
               <Image
                 src={teamMember.image}
                 alt={teamMember.name}

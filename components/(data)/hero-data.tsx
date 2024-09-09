@@ -21,7 +21,7 @@ export const heroData = [
 export const artistsData = [
     {
         image: '/img/eyes/blue brown eye.jpg',
-        desc: 'Our Story InkFlow was born out of a passion for tattoo artistry and a desire to create a platform that celebrates the diverse world of body art. Founded in 2018 by a group of tattoo enthusiasts and artists, our mission.',
+        desc: 'Our Story Skin Canvas Studio was born out of a passion for tattoo artistry and a desire to create a platform that celebrates the diverse world of body art. Founded in 2018 by a group of tattoo enthusiasts and artists, our mission.',
         name: 'Green Eyes',
         sm: "https://www.linkedin.com/in/lucian-rosu-atc/",
         design: 'Traditional',
