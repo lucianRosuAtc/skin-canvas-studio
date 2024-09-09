@@ -6,12 +6,12 @@ import Link from 'next/link';
 
 export default function Card3D() {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pb-8">
             {artistsData.map((artist) => (
                 <div key={artist.image}>
 
                     <CardContainer className="inter-var">
-                        <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[290px] h-auto rounded-xl p-6 border  ">
+                        <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[290px] h-auto rounded-xl p-6 border  ">
                             <CardItem
                                 translateZ="50"
                                 className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -64,8 +64,6 @@ export default function Card3D() {
                             </div>
 
 
-                            {/* MARK: Artist social media link  
-                            */}
                             <div className="flex justify-center items-center mt-10">
                                
                                 <CardItem

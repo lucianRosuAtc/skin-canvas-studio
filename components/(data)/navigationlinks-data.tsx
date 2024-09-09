@@ -1,10 +1,13 @@
 export const navigationlinks = [
 {
-    "name": "Home",
-    "url": "/"
+    name: "Home",
+    url: "/"
     },
     {
-    "name": "Gallery",
-    "url": "/Gallery"
-}
+    name: "Gallery",
+    url: "/Gallery"
+},{
+    name: "About",
+    url: "/About"
+},
 ]
