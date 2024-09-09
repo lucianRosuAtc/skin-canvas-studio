@@ -13,13 +13,13 @@ export default function Footer() {
   const pathname = usePathname();
   return (
     <div className="">
-      <div className="grid grid-cols-1 md:grid-cols-3 max-w-7xl m-auto space-y-20 md:space-y-0 ">
+      <div className="grid grid-cols-1 md:grid-cols-3 max-w-screen-2xl m-auto space-y-20 md:space-y-0">
 
         <Image src="/img/bigCat/Lion1.jpg"
           width={120}
           height={120}
           alt="Skin Canvas Studio Logo"
-          className="flex mx-auto rounded-full border-2 border-primary md:m-3" />
+          className="flex mx-auto rounded-full border-2 border-primary md:my-3 shadow-xl" />
 
 
         <div className="flex gap-x-8 items-center justify-center md:-mt-5">
@@ -35,7 +35,7 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className='md:pt-10'>
+        <div className='md:pt-10 mx-auto'>
           <FloatingDockDemo />
         </div>
       </div>
