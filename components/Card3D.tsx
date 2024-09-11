@@ -1,6 +1,6 @@
 import React from 'react'
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
-import { artistsData } from './(data)/hero-data';
+import { artistsData } from './(data)/artist-data';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -65,12 +65,10 @@ export default function Card3D() {
 
 
                             <div className="flex justify-center items-center mt-10">
-                               
                                 <CardItem
                                     translateZ={20}
                                     as={Link}
                                     href="/Gallery"
-                                    target="_blank"
                                     className="px-4 py-2 rounded-xl bg-primary text-center dark:text-black text-white text-xs font-bold w-40"
                                 >
                                     Gallery

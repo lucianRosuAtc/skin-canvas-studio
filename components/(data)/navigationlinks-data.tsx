@@ -11,6 +11,10 @@ export const navigationlinks = [
         name: "About",
         url: "/About"
     },
+    {
+        name: "Contact",
+        url: "/Contact"
+    },
 ]
 
 
