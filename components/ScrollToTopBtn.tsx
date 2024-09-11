@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronUp } from "lucide-react";
+import { ChevronUp, Rocket } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const ScrollToTopButton = () => {
@@ -39,7 +39,8 @@ const ScrollToTopButton = () => {
       onClick={scrollToTop}
     >
       <div className="border-2 border-white p-1 rounded-full">
-        <ChevronUp className="h-8 w-8" aria-hidden="true" />
+        {/* <ChevronUp className="h-8 w-8" aria-hidden="true" /> */}
+        <Rocket className="h-8 w-8 -rotate-45 p-1" aria-hidden="true" />
       </div>
     </button>
   );

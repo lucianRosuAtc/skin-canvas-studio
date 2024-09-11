@@ -88,17 +88,36 @@ const SkeletonFive = () => {
 
 const SkeletonSix = () => {
   return (
-    // <div>
-    //   <p className="font-bold md:text-4xl text-xl text-white">
-    //     Rivers are serene
-    //   </p>
-    //   <p className="font-normal text-base text-white"></p>
-    //   <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-    //     A house by the river is a place of peace and tranquility. It&apos;s the
-    //     perfect place to relax, unwind, and enjoy life.
-    //   </p>
-    // </div>
+    <div>
+    <p className="font-bold md:text-4xl text-xl text-white">
+      Greens all over
+    </p>
+    <p className="font-normal text-base text-white"></p>
+    <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
+      A house surrounded by greenery and nature&apos;s beauty. It&apos;s the
+      perfect place to relax, unwind, and enjoy life.
+    </p>
+  </div>
+  );
+};
 
+const SkeletonSeven = () => {
+  return (
+    <div>
+    <p className="font-bold md:text-4xl text-xl text-white">
+      Greens all over
+    </p>
+    <p className="font-normal text-base text-white"></p>
+    <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
+      A house surrounded by greenery and nature&apos;s beauty. It&apos;s the
+      perfect place to relax, unwind, and enjoy life.
+    </p>
+  </div>
+  );
+};
+
+const SkeletonEight = () => {
+  return (
     <div>
     <p className="font-bold md:text-4xl text-xl text-white">
       Greens all over
@@ -122,41 +141,55 @@ const cards = [
     content: <SkeletonOne />,
     className: "md:col-span-2",
     thumbnail:
-      "https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "/img/asian/asian-henna-tattoo.jpg",
   },
   {
     id: 2,
     content: <SkeletonTwo />,
     className: "col-span-1",
     thumbnail:
-      "https://images.unsplash.com/photo-1464457312035-3d7d0e0c058e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "/img/asian/asian-II.jpg",
   },
   {
     id: 3,
     content: <SkeletonThree />,
     className: "col-span-1",
     thumbnail:
-      "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "/img/asian/asian1.jpg",
   },
   {
     id: 4,
     content: <SkeletonFour />,
     className: "md:col-span-2",
     thumbnail:
-      "https://images.unsplash.com/photo-1475070929565-c985b496cb9f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "/img/asian/asian3.webp",
   },
   {
     id: 5,
     content: <SkeletonFive />,
     className: "md:col-span-2",
     thumbnail:
-      "https://images.unsplash.com/photo-1475070929565-c985b496cb9f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "/img/asian/asianArms.jpg",
   },
   {
     id: 6,
     content: <SkeletonSix />,
     className: "md:col-span-1",
     thumbnail:
-    "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "/img/asian/asianArms.jpg",
+},
+  {
+    id: 7,
+    content: <SkeletonSeven />,
+    className: "md:col-span-1",
+    thumbnail:
+    "/img/asian/asianArmTatoo.jpg",
+},
+  {
+    id: 8,
+    content: <SkeletonEight />,
+    className: "md:col-span-2",
+    thumbnail:
+    "/img/asian/asianOni.jpg",
 },
 ];
