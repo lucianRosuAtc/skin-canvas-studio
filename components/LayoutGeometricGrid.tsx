@@ -1,10 +1,10 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
-import { LayoutGrid } from "../components/ui/layout-grid";
+import { LayoutGrid } from "./ui/layout-grid";
 
-export function LayoutThirdGrid() {
+export function LayoutGeometricGrid() {
   return (
-    <div className="h-screen py-20 w-full">
+    <div className="h-screen w-full">
       <LayoutGrid cards={cards} />
     </div>
   );

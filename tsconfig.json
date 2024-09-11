@@ -1,3 +1,4 @@
+
 {
   "compilerOptions": {
     "lib": [
@@ -20,7 +21,9 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "target": "es2015", // Add this line to set the target to ES2015 or higher
+    "downlevelIteration": true // Add this line to enable downlevel iteration
   },
   "include": [
     "next-env.d.ts",
