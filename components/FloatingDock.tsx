@@ -5,43 +5,12 @@ import {
   IconBrandGithub,
   IconBrandLinkedin,
   IconBrandX,
-  IconHome,
   IconMail,
-
 } from "@tabler/icons-react";
-import Image from "next/image";
+
 
 export function FloatingDockDemo() {
   const links = [
-    // {
-    //   title: "Home",
-    //   icon: (
-    //     <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-    //   ),
-    //   href: "#",
-    //   target: "_blank",
-    // },
-
-
-
-    // MARK: Add Logo Later 
-
-    // {
-    //   title: "Aceternity UI",
-    //   icon: (
-    //     <Image
-    //       src="/img/bigCat/Lion1.jpg"
-    //       width={50}
-    //       height={50}
-    //       alt="Aceternity Logo"
-    //       className="rounded-full"
-    //     />
-    //   ),
-    //   href: "#",
-    //   target: "_blank",
-    // },
-
-    
     {
       title: "Contact",
       icon: (
@@ -76,6 +45,8 @@ export function FloatingDockDemo() {
       target: "_blank",
     },
   ];
+
+
   return (
     <div className="flex items-center justify-center mb-10">
       <FloatingDock

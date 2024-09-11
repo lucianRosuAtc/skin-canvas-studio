@@ -1,5 +1,3 @@
-
-
 "use client";
 import React, { useState } from "react";
 import { Tabs, TabsList, TabsTrigger } from "../../components/ui/tabs";
@@ -11,6 +9,7 @@ const uniqueCategories = [
   "All The Tatoos",
   ...[...new Set(galleryData.map((item) => item.category))],
 ];
+
 
 export default function Gallery() {
   const [categories, setCategories] = useState(uniqueCategories);
@@ -60,8 +59,6 @@ export default function Gallery() {
                   <div className="mx-auto pb-10">
                     {project.gridLayout}
                   </div>
-
-
                 </div>
               </div>
             ))}

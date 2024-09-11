@@ -1,9 +1,7 @@
-
 'use client'
 import React, { useState } from 'react';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { images } from './(data)/heroSlider-data';
-import Link from 'next/link';
 import { lora } from './fonts' 
 
 const HeroSlider = () => {
@@ -29,8 +27,6 @@ const HeroSlider = () => {
       >
         <div className="absolute inset-0 flex items-end justify-center space-x-4 mb-20">
           {images.map((image, index) => (
-
-//  Changes aplied to the card image 
             <div
               key={index}
               className={`w-10 md:w-20 lg:w-32 h-10 md:h-20 lg:h-32 bg-cover bg-center rounded-full shadow-lg cursor-pointer transition-transform duration-500 ease-in-out ${index === currentIndex ? 'border-2 border-primary mb-3 delay-700' : ''

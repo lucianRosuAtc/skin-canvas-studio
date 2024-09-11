@@ -4,8 +4,6 @@ import { ourTeam } from './(data)/about-data'
 
 export default function TeanAndMission() {
   return (
-
-
     <div className=' pt-1 pb-16 w-full bg-gray-50 dark:bg-neutral-950 font-sans md:px-10'>
 
       {/* MARK: Team  */}

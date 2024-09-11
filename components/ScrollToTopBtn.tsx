@@ -1,5 +1,4 @@
 "use client";
-
 import { ChevronUp, Rocket } from "lucide-react";
 import { useState, useEffect } from "react";
 
