@@ -1,7 +1,10 @@
 
 import Link from 'next/link'
 import React from 'react'
-import { LayoutGridDemo } from '../../components/LayoutGrid'
+import { LayoutFirstGrid } from '../../components/LayoutGrid'
+import { LayoutSecondGrid } from '../../components/LayoutSecondGrid'
+import { LayoutThirdGrid } from '../../components/LayoutThirdGrid'
+import { LayoutFourthGrid } from '../../components/LayoutFourthGrid'
 
 
 export default function Gallery() {
@@ -12,7 +15,10 @@ export default function Gallery() {
         <h4 className="text-xl mb-2">Welcome to Skin Canvas Studio</h4>
         <p className="text-base">Our gallery features a collection of tattoo designs from our talented artists. Browse through our gallery to find inspiration for your next tattoo.</p>
       </div>
-      <LayoutGridDemo />
+      <LayoutFirstGrid />
+      <LayoutSecondGrid />
+      <LayoutThirdGrid />
+      <LayoutFourthGrid />
     </div>
   )
 }

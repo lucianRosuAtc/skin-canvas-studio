@@ -2,7 +2,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { LayoutGrid } from "../components/ui/layout-grid";
 
-export function LayoutFirstGrid() {
+export function LayoutSecondGrid() {
   return (
     <div className="h-screen py-20 w-full">
       <LayoutGrid cards={cards} />
@@ -116,20 +116,6 @@ const SkeletonSeven = () => {
   );
 };
 
-const SkeletonEight = () => {
-  return (
-    <div>
-    <p className="font-bold md:text-4xl text-xl text-white">
-      Greens all over
-    </p>
-    <p className="font-normal text-base text-white"></p>
-    <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      A house surrounded by greenery and nature&apos;s beauty. It&apos;s the
-      perfect place to relax, unwind, and enjoy life.
-    </p>
-  </div>
-  );
-};
 
 
 
@@ -141,55 +127,49 @@ const cards = [
     content: <SkeletonOne />,
     className: "md:col-span-2",
     thumbnail:
-      "/img/asian/asian-henna-tattoo.jpg",
+      "/img/bigCat/Lion1.jpg",
   },
   {
     id: 2,
     content: <SkeletonTwo />,
     className: "col-span-1",
     thumbnail:
-      "/img/asian/asian-II.jpg",
+      "/img/bigCat/lionRealismLeaf.jpg",
   },
   {
     id: 3,
     content: <SkeletonThree />,
     className: "col-span-1",
     thumbnail:
-      "/img/asian/asian1.jpg",
+      "/img/bigCat/realismLion.jpg",
   },
   {
     id: 4,
     content: <SkeletonFour />,
     className: "md:col-span-2",
     thumbnail:
-      "/img/asian/asian3.webp",
+      "/img/bigCat/realismLionMeal.jpeg",
   },
   {
     id: 5,
     content: <SkeletonFive />,
     className: "md:col-span-2",
     thumbnail:
-      "/img/asian/asianArms.jpg",
+      "/img/bigCat/realismTigerFace.jpg",
   },
   {
     id: 6,
     content: <SkeletonSix />,
     className: "md:col-span-1",
     thumbnail:
-    "/img/asian/asianArms.jpg",
+    "/img/bigCat/tiger-tattoo-realism.jpg",
 },
   {
     id: 7,
     content: <SkeletonSeven />,
     className: "md:col-span-1",
     thumbnail:
-    "/img/asian/asianArmTatoo.jpg",
+    "/img/bigCat/tigerRealism.jpg",
 },
-  {
-    id: 8,
-    content: <SkeletonEight />,
-    className: "md:col-span-2",
-    thumbnail:
-    "/img/asian/asianOni.jpg",
-},
+
 ];

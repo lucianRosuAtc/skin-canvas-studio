@@ -2,7 +2,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { LayoutGrid } from "../components/ui/layout-grid";
 
-export function LayoutFirstGrid() {
+export function LayoutFourthGrid() {
   return (
     <div className="h-screen py-20 w-full">
       <LayoutGrid cards={cards} />
@@ -89,48 +89,47 @@ const SkeletonFive = () => {
 const SkeletonSix = () => {
   return (
     <div>
-    <p className="font-bold md:text-4xl text-xl text-white">
-      Greens all over
-    </p>
-    <p className="font-normal text-base text-white"></p>
-    <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      A house surrounded by greenery and nature&apos;s beauty. It&apos;s the
-      perfect place to relax, unwind, and enjoy life.
-    </p>
-  </div>
+      <p className="font-bold md:text-4xl text-xl text-white">
+        Rivers are serene
+      </p>
+      <p className="font-normal text-base text-white"></p>
+      <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
+        A house by the river is a place of peace and tranquility. It&apos;s the
+        perfect place to relax, unwind, and enjoy life.
+      </p>
+    </div>
   );
 };
 
 const SkeletonSeven = () => {
   return (
     <div>
-    <p className="font-bold md:text-4xl text-xl text-white">
-      Greens all over
-    </p>
-    <p className="font-normal text-base text-white"></p>
-    <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      A house surrounded by greenery and nature&apos;s beauty. It&apos;s the
-      perfect place to relax, unwind, and enjoy life.
-    </p>
-  </div>
+      <p className="font-bold md:text-4xl text-xl text-white">
+        Rivers are serene
+      </p>
+      <p className="font-normal text-base text-white"></p>
+      <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
+        A house by the river is a place of peace and tranquility. It&apos;s the
+        perfect place to relax, unwind, and enjoy life.
+      </p>
+    </div>
   );
 };
 
 const SkeletonEight = () => {
   return (
     <div>
-    <p className="font-bold md:text-4xl text-xl text-white">
-      Greens all over
-    </p>
-    <p className="font-normal text-base text-white"></p>
-    <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-      A house surrounded by greenery and nature&apos;s beauty. It&apos;s the
-      perfect place to relax, unwind, and enjoy life.
-    </p>
-  </div>
+      <p className="font-bold md:text-4xl text-xl text-white">
+        Rivers are serene
+      </p>
+      <p className="font-normal text-base text-white"></p>
+      <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
+        A house by the river is a place of peace and tranquility. It&apos;s the
+        perfect place to relax, unwind, and enjoy life.
+      </p>
+    </div>
   );
 };
-
 
 
 
@@ -141,55 +140,56 @@ const cards = [
     content: <SkeletonOne />,
     className: "md:col-span-2",
     thumbnail:
-      "/img/asian/asian-henna-tattoo.jpg",
+      "/img/moon/big-moon .jpg",
   },
   {
     id: 2,
     content: <SkeletonTwo />,
     className: "col-span-1",
     thumbnail:
-      "/img/asian/asian-II.jpg",
+      "/img/moon/blood-moon-and-stars.jpg",
   },
   {
     id: 3,
     content: <SkeletonThree />,
     className: "col-span-1",
     thumbnail:
-      "/img/asian/asian1.jpg",
+      "/img/moon/blood-moon.jpg",
   },
   {
     id: 4,
     content: <SkeletonFour />,
     className: "md:col-span-2",
     thumbnail:
-      "/img/asian/asian3.webp",
+      "/img/moon/many-moons.jpg",
   },
   {
     id: 5,
     content: <SkeletonFive />,
     className: "md:col-span-2",
     thumbnail:
-      "/img/asian/asianArms.jpg",
+      "/img/moon/moon .jpg",
   },
   {
     id: 6,
     content: <SkeletonSix />,
     className: "md:col-span-1",
     thumbnail:
-    "/img/asian/asianArms.jpg",
-},
+      "/img/moon/moon .jpg",
+  },
   {
     id: 7,
     content: <SkeletonSeven />,
     className: "md:col-span-1",
     thumbnail:
-    "/img/asian/asianArmTatoo.jpg",
-},
+      "/img/moon/moon .jpg",
+  },
   {
     id: 8,
     content: <SkeletonEight />,
     className: "md:col-span-2",
     thumbnail:
-    "/img/asian/asianOni.jpg",
-},
+      "/img/moon/moon .jpg",
+  },
+ 
 ];
