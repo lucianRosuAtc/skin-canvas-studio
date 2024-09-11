@@ -64,12 +64,21 @@ export default function Card3D() {
                             </div>
 
 
-                            <div className="flex justify-center items-center mt-10">
+                            <div className="flex justify-between items-center mt-10 ">
+                                <CardItem
+                                    translateZ={20}
+                                    as={Link}
+                                    href={artist.sm} 
+                                    target="_blank"
+                                    className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white dark:text-primary text-xs font-bold"
+                                >
+                                    Social Media
+                                </CardItem>
                                 <CardItem
                                     translateZ={20}
                                     as={Link}
                                     href="/Gallery"
-                                    className="px-4 py-2 rounded-xl bg-primary text-center dark:text-black text-white text-xs font-bold w-40"
+                                    className="px-4 py-2 rounded-xl bg-primary text-center dark:text-white text-white text-xs font-bold w-20"
                                 >
                                     Gallery
                                 </CardItem>
