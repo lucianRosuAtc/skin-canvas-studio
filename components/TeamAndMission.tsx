@@ -54,11 +54,11 @@ export default function TeanAndMission() {
 
         <h4>At InkFlow, our mission is to:</h4>
         <ul className="mt-4">
-          <li>✅  Promote tattoo artistry as a respected and valued form of creative expression</li>
-          <li>✅  Provide a platform for talented artists to showcase their work and connect with clients</li>
-          <li>✅  Educate the public about tattoo safety, aftercare, and the artistic process</li>
-          <li>✅  Foster a supportive community for both artists and tattoo enthusiasts</li>
-          <li>✅  Push the boundaries of tattoo art through innovation and collaboration</li>
+          <li><p>✅ Promote tattoo artistry as a respected and valued form of creative expression</p></li>
+          <li><p>✅ Provide a platform for talented artists to showcase their work and connect with clients</p></li>
+          <li><p>✅ Educate the public about tattoo safety, aftercare, and the artistic process</p></li>
+          <li><p>✅ Foster a supportive community for both artists and tattoo enthusiasts</p></li>
+          <li><p>✅ Push the boundaries of tattoo art through innovation and collaboration</p></li>
         </ul>
       </div>
     </div>

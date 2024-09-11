@@ -28,7 +28,7 @@ export default function Navbar() {
           </Link>
         ))}
       </div>
-      <div className="pr-20 my-auto ">
+      <div className="pr-20 my-auto">
         <ThemeToggler />
       </div>
     </div>
