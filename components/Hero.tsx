@@ -5,6 +5,8 @@ import { lora, dancing } from './fonts';
 import { heroData } from './(data)/hero-data';
 
 import Card3D from './Card3D';
+import Carousel from './Carousel';
+import CarouselTwo from './CarouselTwo';
 
 export default function Hero() {
   return (
@@ -16,9 +18,9 @@ export default function Hero() {
           The traditional tattoo style, also known as &apos;American Traditional&apos; or &apos;Old School&apos;, is one of the most classic and recognizable aesthetics in tattooing. Discover and book the best traditional tattoo artists near you in just a few easy steps.
         </p>
         <div className='mt-10'>
-        <Link href="/Gallery" className={`bg-red-800 px-9 py-4 rounded-full text-white ${lora.className}`}>
+          <Link href="/Gallery" className={`bg-red-800 px-9 py-4 rounded-full text-white ${lora.className}`}>
             Explore Gallery
-        </Link>
+          </Link>
         </div>
       </div>
 
@@ -39,7 +41,10 @@ export default function Hero() {
           <Card3D />
         </div>
       </div>
-
+      <div className="grid grid-cols-1  lg:grid-cols-2 xl:grid-cols-3">
+      <Carousel />
+      <CarouselTwo />
+      </div>
     </div>
   );
 }
