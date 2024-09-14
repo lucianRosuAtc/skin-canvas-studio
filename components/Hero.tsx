@@ -23,7 +23,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto max-w-screen-2xl gap-10 px-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto max-w-screen-2xl gap-10 px-4">
         {heroData.map((hero) => (
           <div key={hero.title} className='border rounded-lg shadow-lg'>
             <div className=" px-5 py-10">
@@ -34,9 +34,9 @@ export default function Hero() {
         ))}
       </div>
 
-      <div className="max-w-screen-2xl mx-auto  my-20">
-        <div className="border rounded-lg shadow-lg mx-8">
-          <h2 className="pl-10 pt-10 text-bold text-5xl">Featured Artists</h2>
+      <div className="max-w-screen-2xl mx-auto my-20">
+        <div className="border rounded-lg shadow-lg mx-4">
+          <h2 className="pl-3 md:pl-10 py-10 text-bold text-5xl">Featured Artists</h2>
           <Card3D />
         </div>
       </div>

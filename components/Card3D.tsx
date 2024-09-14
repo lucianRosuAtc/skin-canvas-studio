@@ -6,12 +6,12 @@ import Link from 'next/link';
 
 export default function Card3D() {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pb-8 px-3">
             {artistsData.map((artist) => (
                 <div key={artist.image}>
 
                     <CardContainer className="inter-var">
-                        <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[290px] h-auto rounded-xl p-6 border  ">
+                        <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[290px] h-auto rounded-xl p-6 border">
                             <CardItem
                                 translateZ="50"
                                 className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -21,7 +21,7 @@ export default function Card3D() {
                             <CardItem
                                 as="p"
                                 translateZ="60"
-                                className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                                className="text-neutral-500 text-xs max-w-sm mt-2 dark:text-muted-foreground"
                             >
                                 {artist.desc}
                             </CardItem>
@@ -38,7 +38,7 @@ export default function Card3D() {
 
                             {/* MARK: Artist design style  
                             */}
-                            <div className="flex flex-wrap justify-between items-center mt-10 gap-2">
+                            <div className="hidden md:flex flex-wrap justify-between items-center mt-10 gap-2">
 
                                 <CardItem
                                     translateZ={20}
@@ -70,7 +70,7 @@ export default function Card3D() {
                                     as={Link}
                                     href={artist.sm} 
                                     target="_blank"
-                                    className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white dark:text-primary text-xs font-bold"
+                                    className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white dark:text-primary text-xs font-bold mr-1"
                                 >
                                     Social Media
                                 </CardItem>
