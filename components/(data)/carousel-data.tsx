@@ -7,7 +7,7 @@ export const recommendationsData = [
     artistName:"George Clark",
     tatooName: "Dragon",
     description:
-      "George is an exceptional tattoo artist with a keen eye for detail. His dragon tattoos are intricate and beautifully designed. Highly recommend him for anyone looking for a unique and stunning tattoo.",
+      "George is an exceptional tattoo artist with a keen eye for detail. His dragon tattoos are intricate and beautifully designed. Highly recommend him for anyone looking for a unique tattoo.",
   },
   {
     img: "/img/faces/b1.jpg",
@@ -32,7 +32,7 @@ export const recommendationsData = [
     artistName:"Amelia Walker",
     tatooName: "Rose",
     description:
-      "Alelia's rose tattoos are simply beautiful. She has a unique style that brings out the elegance and beauty of the rose. Her attention to detail and artistic flair make her a fantastic choice for a rose tattoo.",
+      "Alelia's unique style brings out the elegance and beauty of the rose. Her attention to detail and artistic flair make her a fantastic artist.",
   },
   {
     img: "/img/faces/b3.jpg",
@@ -40,7 +40,7 @@ export const recommendationsData = [
     artistName: "Oliver Smith",
     tatooName: "Anchor",
     description:
-      "Oliver's tattoos are clean and precise, with a perfect balance of detail and simplicity. He is highly recommended for anyone looking for a classic and timeless anchor tattoo.",
+      "Oliver's tattoos are clean and precise, with a perfect balance of detail and simplicity. He is highly recommended him.",
   },
   {
     img: "/img/faces/b4.jpg",
@@ -75,7 +75,7 @@ export const recommendationsDataTwo = [
   },
   {
     img: "/img/faces/b6.jpg",
-    customerName: "Benjamin Anderson",
+    customerName: "James Anderson",
     artistName: "Amelia Walker",
     tatooName: "Eagle",
     description:
@@ -106,7 +106,7 @@ export const recommendationsDataTwo = [
       "Emily has a unique style that brings out the mythical essence of the dragon. Her artistic flair make her a fantastic choice for a dragon tattoo.",
   },
   {
-    img: "/img/faces/g6.jpg",
+    img: "/img/faces/g5.jpg",
     customerName: "Mia Lopez",
     artistName:"George Clark",
     tatooName: "Feather",
@@ -122,7 +122,7 @@ export const recommendationsDataTwo = [
 // MARK: - CarouselThree Data
 export const recommendationsDataThree = [
   {
-    img: "/img/faces/g5.jpg",
+    img: "/img/faces/g6.jpg",
     customerName: "Isabella Hernandez",
     artistName:"Jack Turner",
     tatooName: "Wolf",
@@ -130,16 +130,16 @@ export const recommendationsDataThree = [
       "Jacks's tattoos are stunning. He has a unique style that brings out the wild and untamed nature of the wolf. I'm so happy with my tattoo.",
   },
   {
-    img: "/img/faces/b5.jpg",
-    customerName: "Bob Taylor",
+    img: "/img/faces/b9.jpg",
+    customerName: "Carlos Martinez",
     artistName:"Emily Evans",
     tatooName: "Star",
     description:
       "Emily's star tattoos are bold and striking. Highly recommend her for anyone looking for a beautiful star tattoo.",
   },
   {
-    img: "/img/faces/b9.jpg",
-    customerName: "Thomas Walker",
+    img: "/img/faces/b10.jpg",
+    customerName: "Randy Walker",
     artistName:"Amelia Walker",
     tatooName: "Wolf",
     description:
@@ -154,16 +154,16 @@ export const recommendationsDataThree = [
       "Amelia's heart tattoos are simply beautiful. She has a unique style that brings out the elegance and beauty of the heart. Her attention to detail and artistic flair make her a fantastic choice for if you want a new tattoo.",
   },
   {
-    img: "/img/faces/b10.jpg",
-    customerName: "John Smith",
+    img: "/img/faces/b11.jpg",
+    customerName: "Thomas J Smith",
     artistName: "Jack Turner",
     tatooName: "Dragon",
     description:
       "Jack's has a keen eye for detail and a unique approach to creating amazing tattoos. Highly recommend him.",
   },
   {
-    img: "/img/faces/b11.jpg",
-    customerName: "David Johnson",
+    img: "/img/faces/b12.jpg",
+    customerName: "Dave Johnson",
     artistName: "George Clark",
     tatooName: "Lion",
     description:

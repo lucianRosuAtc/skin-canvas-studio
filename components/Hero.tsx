@@ -55,7 +55,7 @@ export default function Hero() {
           </p>
         </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 border">
       <Carousel />
       <CarouselTwo />
       <CarouselThree />
