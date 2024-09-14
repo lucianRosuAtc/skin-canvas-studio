@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { lora } from './fonts';
 import { recommendationsData } from "./(data)/carousel-data";
 
 import "slick-carousel/slick/slick.css";
@@ -74,12 +75,14 @@ export default function Carousel() {
                     />
                     <div className="flex flex-col">
                       <p className="text-base md:text-xl xl:text-2xl xl:leading-normal font-semibold; px-4 pt-5">
-                        {recommendation.name}
+                        {recommendation.customerName}
                       </p>
-                      <p className="px-4 pb-5 text-xs">{recommendation.job}</p>
+                      <p className={`px-4 pb-1 text-sm text-muted-foreground ${lora.className}`}>Tattoo: {recommendation.tatooName}</p>
+                      <p className={`px-4 pb-5 text-sm text-muted-foreground ${lora.className}`}>Artist: {recommendation.artistName}</p>
+                    
                     </div>
                   </div>
-                  <div className="h-auto md:text-base xl:text-lg text-muted-foreground font-light px-5 pb-6">
+                  <div className="h-auto text-sm md:text-base xl:text-lg text-muted-foreground font-light px-5 pb-6">
                     {recommendation.description}
                   </div>
                 </section>

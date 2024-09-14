@@ -1,144 +1,177 @@
+
+// MARK: - Carousel Data
 export const recommendationsData = [
-    {
-      img: "/img/recommendations/Amber.jpg",
-      name: "Amber Robeck",
-      job: "Full Stack Web Developer @ edX",
-      description:
-        "Lucian is a fast learner with a unique approach to solving problems. Lucian is not afraid to dive into challenging tasks with a positive attitude. He is a great contributor to any team. I look forward to working with Lucian in the future and highly recommend him for any projects.",
-    },
-    {
-      img: "/img/recommendations/Jade.jpeg",
-      name: "Jade Page",
-      job: "Senior Web Developer @ Adopstar Ltd",
-      description: "An absolute pleasure to work with, Lucian Rosu radiates positivity and kindness, fostering a harmonious and supportive work environment effortlessly. His dedication and enthusiasm are truly inspiring, consistently going above and beyond to ensure the success of every project."
-    },
-    {
-      img: "/img/recommendations/Gilson.jpg",
-      name: "Gilson de Almeida",
-      job: "Full Stack Developer",
-      description:
-      "Lucian collaborated with us on a project. During this period, he proved that he is an ambitious, hardworking person with good technical skills who has a strong desire to learn even more and improve himself. He works very well in the team and is always willing to help. Lucian is a person I highly recommend.",
-    },
-    {
-      img: "/img/recommendations/AlexErnila.jpg",
-      name: "Alex Ernila",
-      job: "Software Developer @ Continental",
-      description:
-      "Lucian Rosu is one of the best among all the people I have ever worked with. He is a very productive person, hardworking, broad-minded and forward-thinking individual. Intelligent, ambitious, energetic and proactive perfectionist. The desire for proficiency make Lucian a valuable asset to the team.",
-    },
-  
-    {
-      img: "/img/recommendations/Kieran.jpeg",
-      name: "Kieran Colley",
-      job: "Senior Full Stack React/NextJs Developer @ Adopstar Ltd",
-      description:
-        // "Lucian is a great person to work with, always wanting to learn new things and get stuck in. He has a great personality and a great work ethic. ",
-        "Lucian is a great person to work with, always wanting to learn new things and get stuck in. He has a great personality and a great work ethic. Lucian's exceptional communication skills and collaborative spirit make him an invaluable asset to any team.",
-    },
-    {
-      img: "/img/recommendations/Liu.jpeg",
-      name: "Liu He",
-      job: "Web Developer @ Adopstar Ltd",
-      description:
-        "I had the pleasure of working with Lucian, where he proved to be an exceptional web developer. His expertise in both front-end and back-end technologies, combined with his keen eye for detail, consistently delivered top-notch web solutions. I highly recommend him for any web development role.",
-    },
-  ];
-  
+  {
+    img: "/img/faces/g1.jpg",
+    customerName: "Sophia Johnson",
+    artistName:"George Clark",
+    tatooName: "Dragon",
+    description:
+      "George is an exceptional tattoo artist with a keen eye for detail. His dragon tattoos are intricate and beautifully designed. Highly recommend him for anyone looking for a unique and stunning tattoo.",
+  },
+  {
+    img: "/img/faces/b1.jpg",
+    customerName: "Liam Brown",
+    artistName:"Emily Evans",
+    tatooName: "Phoenix",
+    description:
+      "Emily's phoenix tattoos are a work of art. She has a talent for capturing the essence of the mythical bird in her designs.",
+  },
+  {
+    img: "/img/faces/b2.jpg",
+    customerName: "Noah Jones",
+    artistName:"Jack Turner",
+    tatooName: "Skull",
+    description:
+      "Jack is a master at creating skull tattoos. His designs are bold and striking, with a perfect balance of detail and shading.",
+  },
+  {
+ 
+    img: "/img/faces/g2.jpg",
+    customerName: "Emma Williams",
+    artistName:"Amelia Walker",
+    tatooName: "Rose",
+    description:
+      "Alelia's rose tattoos are simply beautiful. She has a unique style that brings out the elegance and beauty of the rose. Her attention to detail and artistic flair make her a fantastic choice for a rose tattoo.",
+  },
+  {
+    img: "/img/faces/b3.jpg",
+    customerName: "James Wilson",
+    artistName: "Oliver Smith",
+    tatooName: "Anchor",
+    description:
+      "Oliver's tattoos are clean and precise, with a perfect balance of detail and simplicity. He is highly recommended for anyone looking for a classic and timeless anchor tattoo.",
+  },
+  {
+    img: "/img/faces/b4.jpg",
+    customerName: "Benjamin Anderson",
+    artistName: "Lily Evans",
+    tatooName: "Eagle",
+    description:
+      "Lily's eagle tattoos are bold and dynamic. Her artistic skill and attention to detail make her a fantastic choice for an eagle tattoo.",
+  },
+];
 
-  
-  // MARK: - CarouselTwo.tsx
+
+
+
+// MARK: - CarouselTwo Data
 export const recommendationsDataTwo = [
-    {
-      img: "/img/recommendations/Amber.jpg",
-      name: "Amber Robeck",
-      job: "Full Stack Web Developer @ edX",
-      description:
-        "Lucian is a fast learner with a unique approach to solving problems. Lucian is not afraid to dive into challenging tasks with a positive attitude. He is a great contributor to any team. I look forward to working with Lucian in the future and highly recommend him for any projects.",
-    },
-    {
-      img: "/img/recommendations/Jade.jpeg",
-      name: "Jade Page",
-      job: "Senior Web Developer @ Adopstar Ltd",
-      description: "An absolute pleasure to work with, Lucian Rosu radiates positivity and kindness, fostering a harmonious and supportive work environment effortlessly. His dedication and enthusiasm are truly inspiring, consistently going above and beyond to ensure the success of every project."
-    },
-    {
-      img: "/img/recommendations/Gilson.jpg",
-      name: "Gilson de Almeida",
-      job: "Full Stack Developer",
-      description:
-      "Lucian collaborated with us on a project. During this period, he proved that he is an ambitious, hardworking person with good technical skills who has a strong desire to learn even more and improve himself. He works very well in the team and is always willing to help. Lucian is a person I highly recommend.",
-    },
-    {
-      img: "/img/recommendations/AlexErnila.jpg",
-      name: "Alex Ernila",
-      job: "Software Developer @ Continental",
-      description:
-      "Lucian Rosu is one of the best among all the people I have ever worked with. He is a very productive person, hardworking, broad-minded and forward-thinking individual. Intelligent, ambitious, energetic and proactive perfectionist. The desire for proficiency make Lucian a valuable asset to the team.",
-    },
-  
-    {
-      img: "/img/recommendations/Kieran.jpeg",
-      name: "Kieran Colley",
-      job: "Senior Full Stack React/NextJs Developer @ Adopstar Ltd",
-      description:
-        // "Lucian is a great person to work with, always wanting to learn new things and get stuck in. He has a great personality and a great work ethic. ",
-        "Lucian is a great person to work with, always wanting to learn new things and get stuck in. He has a great personality and a great work ethic. Lucian's exceptional communication skills and collaborative spirit make him an invaluable asset to any team.",
-    },
-    {
-      img: "/img/recommendations/Liu.jpeg",
-      name: "Liu He",
-      job: "Web Developer @ Adopstar Ltd",
-      description:
-        "I had the pleasure of working with Lucian, where he proved to be an exceptional web developer. His expertise in both front-end and back-end technologies, combined with his keen eye for detail, consistently delivered top-notch web solutions. I highly recommend him for any web development role.",
-    },
-  ];
-  
+  {
+    img: "/img/faces/g3.jpg",
+    customerName: "Olivia Garcia",
+    artistName: "George Clark",
+    tatooName: "Butterfly",
+    description:
+      "George's butterfly tattoos are delicate and graceful. He has a talent for creating designs that are both intricate and elegant. Highly recommend him.",
+  },
+  {
+    img: "/img/faces/b5.jpg",
+    customerName: "James Wilson",
+    artistName: "Emily Evans",
+    tatooName: "Anchor",
+    description:
+      "Emily is an expert, her designs are clean and precise, with a perfect balance of detail and simplicity. She is highly recommended for anyone looking for a tattoo.",
+  },
+  {
+    img: "/img/faces/b6.jpg",
+    customerName: "Benjamin Anderson",
+    artistName: "Amelia Walker",
+    tatooName: "Eagle",
+    description:
+      "Amelia's eagle tattoos are bold and dynamic. She has a talent for capturing the majesty and power of the eagle in her designs. Her artistic skill and attention to detail make her a fantastic choice for an eagle tattoo.",
+  },
+  {
+    img: "/img/faces/b7.jpg",
+    customerName: "William Harris",
+    artistName: "Oliver Smith",
+    tatooName: "Tiger",
+    description:
+      "Oliver's tiger tattoos are fierce and detailed. He has a talent for capturing the strength and beauty of the tiger in his designs. Highly recommend him for anyone looking for a striking tiger tattoo.",
+  },
+  {
+    img: "/img/faces/g4.jpg",
+    customerName: "Ava Martinez",
+    artistName: "Jack Turner",
+    tatooName: "Lion",
+    description:
+      "Jack's lion tattoos are fierce and majestic. He has a knack for capturing the strength and power of the lion in his designs. His professionalism and skill make him a top choice for a lion tattoo.",
+  },
+  {
+    img: "/img/faces/b8.jpg",
+    customerName: "Henry Lewis",
+    artistName:"Emily Evans",
+    tatooName: "Dragon",
+    description:
+      "Emily's dragon tattoos are intricate and powerful. She has a unique style that brings out the mythical essence of the dragon. Her attention to detail and artistic flair make her a fantastic choice for a dragon tattoo.",
+  },
+  {
+    img: "/img/faces/g6.jpg",
+    customerName: "Mia Lopez",
+    artistName:"George Clark",
+    tatooName: "Feather",
+    description:
+      "George's feather tattoos are delicate and beautiful. He has a talent for creating designs that are both intricate and elegant. His professionalism and creativity make him a top choice for a feather tattoo.",
+  },
+];
 
 
-  // MARK: - CarouselThree.tsx
+
+
+
+// MARK: - CarouselThree Data
 export const recommendationsDataThree = [
-    {
-      img: "/img/recommendations/Amber.jpg",
-      name: "Amber Robeck",
-      job: "Full Stack Web Developer @ edX",
-      description:
-        "Lucian is a fast learner with a unique approach to solving problems. Lucian is not afraid to dive into challenging tasks with a positive attitude. He is a great contributor to any team. I look forward to working with Lucian in the future and highly recommend him for any projects.",
-    },
-    {
-      img: "/img/recommendations/Jade.jpeg",
-      name: "Jade Page",
-      job: "Senior Web Developer @ Adopstar Ltd",
-      description: "An absolute pleasure to work with, Lucian Rosu radiates positivity and kindness, fostering a harmonious and supportive work environment effortlessly. His dedication and enthusiasm are truly inspiring, consistently going above and beyond to ensure the success of every project."
-    },
-    {
-      img: "/img/recommendations/Gilson.jpg",
-      name: "Gilson de Almeida",
-      job: "Full Stack Developer",
-      description:
-      "Lucian collaborated with us on a project. During this period, he proved that he is an ambitious, hardworking person with good technical skills who has a strong desire to learn even more and improve himself. He works very well in the team and is always willing to help. Lucian is a person I highly recommend.",
-    },
-    {
-      img: "/img/recommendations/AlexErnila.jpg",
-      name: "Alex Ernila",
-      job: "Software Developer @ Continental",
-      description:
-      "Lucian Rosu is one of the best among all the people I have ever worked with. He is a very productive person, hardworking, broad-minded and forward-thinking individual. Intelligent, ambitious, energetic and proactive perfectionist. The desire for proficiency make Lucian a valuable asset to the team.",
-    },
-  
-    {
-      img: "/img/recommendations/Kieran.jpeg",
-      name: "Kieran Colley",
-      job: "Senior Full Stack React/NextJs Developer @ Adopstar Ltd",
-      description:
-        // "Lucian is a great person to work with, always wanting to learn new things and get stuck in. He has a great personality and a great work ethic. ",
-        "Lucian is a great person to work with, always wanting to learn new things and get stuck in. He has a great personality and a great work ethic. Lucian's exceptional communication skills and collaborative spirit make him an invaluable asset to any team.",
-    },
-    {
-      img: "/img/recommendations/Liu.jpeg",
-      name: "Liu He",
-      job: "Web Developer @ Adopstar Ltd",
-      description:
-        "I had the pleasure of working with Lucian, where he proved to be an exceptional web developer. His expertise in both front-end and back-end technologies, combined with his keen eye for detail, consistently delivered top-notch web solutions. I highly recommend him for any web development role.",
-    },
-  ];
-  
+  {
+    img: "/img/faces/g5.jpg",
+    customerName: "Isabella Hernandez",
+    artistName:"Jack Turner",
+    tatooName: "Wolf",
+    description:
+      "Jacks's wolf tattoos are stunning and powerful. She has a unique style that brings out the wild and untamed nature of the wolf. Highly recommend her for anyone looking for a striking wolf tattoo.",
+  },
+  {
+    img: "/img/faces/b5.jpg",
+    customerName: "Bob Taylor",
+    artistName:"Emily Evans",
+    tatooName: "Star",
+    description:
+      "Emily's star tattoos are bold and striking. She has a talent for creating designs that are both intricate and elegant. Highly recommend her for anyone looking for a beautiful star tattoo.",
+  },
+  {
+    img: "/img/faces/b9.jpg",
+    customerName: "Thomas Walker",
+    artistName:"Amelia Walker",
+    tatooName: "Wolf",
+    description:
+      "Amelia's wolf tattoos are stunning and lifelike. She has a talent for capturing the wild and untamed nature of the wolf in her designs. Highly recommend her for anyone looking for a beautiful wolf tattoo.",
+  },
+  {
+    img: "/img/faces/g7.jpg",
+    customerName: "Charlotte Thomas",
+    artistName:"Amelia Walker",
+    tatooName: "Heart",
+    description:
+      "Amelia's heart tattoos are simply beautiful. She has a unique style that brings out the elegance and beauty of the heart. Her attention to detail and artistic flair make her a fantastic choice for a heart tattoo.",
+  },
+  {
+    img: "/img/faces/b10.jpg",
+    customerName: "John Smith",
+    artistName: "Jack Turner",
+    tatooName: "Dragon",
+    description:
+      "Jack's dragon tattoos are intricate and beautifully designed. He has a keen eye for detail and a unique approach to creating stunning dragon tattoos. Highly recommend him for anyone looking for a unique and powerful tattoo.",
+  },
+  {
+    img: "/img/faces/b11.jpg",
+    customerName: "David Johnson",
+    artistName: "George Clark",
+    tatooName: "Lion",
+    description:
+      "George's lion tattoos are fierce and majestic. He has a knack for capturing the strength and power of the lion in his designs. His professionalism and skill make him a top choice for a lion tattoo.",
+  },
+];
+
+
+
+
+// artistName:"Emily Evans",        artistName:"Jack Turner",   artistName:"George Clark",    artistName:"Amelia Walker",
