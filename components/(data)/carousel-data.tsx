@@ -79,7 +79,7 @@ export const recommendationsDataTwo = [
     artistName: "Amelia Walker",
     tatooName: "Eagle",
     description:
-      "Amelia's eagle tattoos are bold and dynamic. She has a talent for capturing the majesty and power of the eagle in her designs. Her artistic skill and attention to detail make her a fantastic choice for an eagle tattoo.",
+      "Amelia has a talent for capturing the power of the eagle in her designs. Her artistic skill and attention to detail make her a fantastic choice for any tattoo.",
   },
   {
     img: "/img/faces/b7.jpg",
@@ -87,7 +87,7 @@ export const recommendationsDataTwo = [
     artistName: "Oliver Smith",
     tatooName: "Tiger",
     description:
-      "Oliver's tiger tattoos are fierce and detailed. He has a talent for capturing the strength and beauty of the tiger in his designs. Highly recommend him for anyone looking for a striking tiger tattoo.",
+      "Oliver's tiger tattoos are fierce and detailed. He has a talent for capturing the strength and beauty of the tiger in his designs.",
   },
   {
     img: "/img/faces/g4.jpg",
@@ -95,7 +95,7 @@ export const recommendationsDataTwo = [
     artistName: "Jack Turner",
     tatooName: "Lion",
     description:
-      "Jack's lion tattoos are fierce and majestic. He has a knack for capturing the strength and power of the lion in his designs. His professionalism and skill make him a top choice for a lion tattoo.",
+      "Jack's lion tattoos are fierce. He has a knack for capturing the strength and power of the lion in his designs. His skill make him a top choice for a lion tattoo.",
   },
   {
     img: "/img/faces/b8.jpg",
@@ -103,7 +103,7 @@ export const recommendationsDataTwo = [
     artistName:"Emily Evans",
     tatooName: "Dragon",
     description:
-      "Emily's dragon tattoos are intricate and powerful. She has a unique style that brings out the mythical essence of the dragon. Her attention to detail and artistic flair make her a fantastic choice for a dragon tattoo.",
+      "Emily has a unique style that brings out the mythical essence of the dragon. Her artistic flair make her a fantastic choice for a dragon tattoo.",
   },
   {
     img: "/img/faces/g6.jpg",
@@ -111,7 +111,7 @@ export const recommendationsDataTwo = [
     artistName:"George Clark",
     tatooName: "Feather",
     description:
-      "George's feather tattoos are delicate and beautiful. He has a talent for creating designs that are both intricate and elegant. His professionalism and creativity make him a top choice for a feather tattoo.",
+      "George's feather tattoos are delicate and beautiful. He has a talent for creating designs that are both intricate and elegant.",
   },
 ];
 
@@ -127,7 +127,7 @@ export const recommendationsDataThree = [
     artistName:"Jack Turner",
     tatooName: "Wolf",
     description:
-      "Jacks's wolf tattoos are stunning and powerful. She has a unique style that brings out the wild and untamed nature of the wolf. Highly recommend her for anyone looking for a striking wolf tattoo.",
+      "Jacks's tattoos are stunning. He has a unique style that brings out the wild and untamed nature of the wolf. I'm so happy with my tattoo.",
   },
   {
     img: "/img/faces/b5.jpg",
@@ -135,7 +135,7 @@ export const recommendationsDataThree = [
     artistName:"Emily Evans",
     tatooName: "Star",
     description:
-      "Emily's star tattoos are bold and striking. She has a talent for creating designs that are both intricate and elegant. Highly recommend her for anyone looking for a beautiful star tattoo.",
+      "Emily's star tattoos are bold and striking. Highly recommend her for anyone looking for a beautiful star tattoo.",
   },
   {
     img: "/img/faces/b9.jpg",
@@ -143,7 +143,7 @@ export const recommendationsDataThree = [
     artistName:"Amelia Walker",
     tatooName: "Wolf",
     description:
-      "Amelia's wolf tattoos are stunning and lifelike. She has a talent for capturing the wild and untamed nature of the wolf in her designs. Highly recommend her for anyone looking for a beautiful wolf tattoo.",
+      "So happy with my new wolf tattoo. It is so cool and lifelike. Highly recommend Amelia",
   },
   {
     img: "/img/faces/g7.jpg",
@@ -151,7 +151,7 @@ export const recommendationsDataThree = [
     artistName:"Amelia Walker",
     tatooName: "Heart",
     description:
-      "Amelia's heart tattoos are simply beautiful. She has a unique style that brings out the elegance and beauty of the heart. Her attention to detail and artistic flair make her a fantastic choice for a heart tattoo.",
+      "Amelia's heart tattoos are simply beautiful. She has a unique style that brings out the elegance and beauty of the heart. Her attention to detail and artistic flair make her a fantastic choice for if you want a new tattoo.",
   },
   {
     img: "/img/faces/b10.jpg",
@@ -159,7 +159,7 @@ export const recommendationsDataThree = [
     artistName: "Jack Turner",
     tatooName: "Dragon",
     description:
-      "Jack's dragon tattoos are intricate and beautifully designed. He has a keen eye for detail and a unique approach to creating stunning dragon tattoos. Highly recommend him for anyone looking for a unique and powerful tattoo.",
+      "Jack's has a keen eye for detail and a unique approach to creating amazing tattoos. Highly recommend him.",
   },
   {
     img: "/img/faces/b11.jpg",
@@ -167,7 +167,7 @@ export const recommendationsDataThree = [
     artistName: "George Clark",
     tatooName: "Lion",
     description:
-      "George's lion tattoos are fierce and majestic. He has a knack for capturing the strength and power of the lion in his designs. His professionalism and skill make him a top choice for a lion tattoo.",
+      "My new lion tattoos looks so real. George has a knack for capturing the strength and power of the lion in his designs. His professionalism and skill make him a top choice for a tattooist artist.",
   },
 ];
 
