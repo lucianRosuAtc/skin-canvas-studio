@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { recommendationsData } from "./(data)/carousel-data";
+import { recommendationsDataThree } from "./(data)/carousel-data";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -56,11 +56,11 @@ export default function Carousel() {
 
 
   return (
-    <div className="relative mb-4 lg:mb-12 container mx-auto">
+    <div className="relative hidden xl:block mb-4 lg:mb-12 container mx-auto">
       <div className="flex flex-col mx-auto">
         <div className="rounded-xl">
           <Slider {...settings} className="mx-auto">
-            {recommendationsData.map((recommendation, index) => (
+            {recommendationsDataThree.map((recommendation, index) => (
               <div key={index} className="mx-auto">
                 <section className="group relative mx-2 md:mx-4 border rounded-xl shadow-xl dark:bg-[#0C0A09] dark:shadow-secondary dark:shadow-lg mb-10">
                   <div className="flex items-center">

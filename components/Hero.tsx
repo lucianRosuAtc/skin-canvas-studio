@@ -7,6 +7,7 @@ import { heroData } from './(data)/hero-data';
 import Card3D from './Card3D';
 import Carousel from './Carousel';
 import CarouselTwo from './CarouselTwo';
+import CarouselThree from './CarouselThree';
 
 export default function Hero() {
   return (
@@ -41,9 +42,24 @@ export default function Hero() {
           <Card3D />
         </div>
       </div>
-      <div className="grid grid-cols-1  lg:grid-cols-2 xl:grid-cols-3">
+
+
+
+
+      <div className="max-w-screen-2xl mx-auto my-20">
+
+      <div className="flex flex-col justify-center items-center xl:items-start mb-12 max-w-md text-center mx-auto xl:ml-44 xl:text-left">
+          <h2 className="mb-4">Recommendations</h2>
+          <p className="subtitle mb-8">
+            Here are some recomandations from the people I&apos;ve work with.
+          </p>
+        </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
       <Carousel />
       <CarouselTwo />
+      <CarouselThree />
+      </div>
       </div>
     </div>
   );

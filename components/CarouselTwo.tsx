@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { recommendationsData } from "./(data)/carousel-data";
+import { recommendationsDataTwo } from "./(data)/carousel-data";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -13,7 +13,7 @@ export default function CarouselTwo() {
     dots: false,
     infinite: true,
     speed: 3500,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 4000,
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
@@ -56,18 +56,11 @@ export default function CarouselTwo() {
 
 
   return (
-    <div className="relative mb-4 lg:mb-12 container mx-auto">
+    <div className="relative hidden lg:block mb-4 lg:mb-12 container mx-auto">
       <div className="flex flex-col mx-auto">
-        <div className="flex flex-col justify-center items-center xl:items-start mb-12 max-w-md text-center mx-auto xl:mx-0 xl:text-left">
-          <h2 className="mb-4">Recommendations</h2>
-          <p className="subtitle mb-8">
-            Here are some recomandations from the people I&apos;ve work with.
-          </p>
-        </div>
-
-        <div className="border rounded-xl">
+        <div className="rounded-xl">
           <Slider {...settings} className="mx-auto">
-            {recommendationsData.map((recommendation, index) => (
+            {recommendationsDataTwo.map((recommendation, index) => (
               <div key={index} className="mx-auto">
                 <section className="group relative mx-2 md:mx-4 border rounded-xl shadow-xl dark:bg-[#0C0A09] dark:shadow-secondary dark:shadow-lg mb-10">
                   <div className="flex items-center">
