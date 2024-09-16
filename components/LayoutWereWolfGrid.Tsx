@@ -41,11 +41,11 @@ const SkeletonThree = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-      Multiple Moon Tattoo
+      Werewolf Head in Black and Gray
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-       A color pallet of multiple moons tattoo design with photo-realistic details. It&apos;s the perfect place to relax, unwind, and enjoy life.
+        Werewolf Head in Black and Gray tattoo design with photo-realistic details. It&apos;s the perfect place to relax, unwind, and enjoy life.
       </p>
     </div>
   );
@@ -55,11 +55,11 @@ const SkeletonFour = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-       Three Moons
+       Red Head Wolf in the Forest
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-       From Blood Moon to original moon tattoo design with photo-realistic details. 
+        Red Head Wolf in the Forest tattoo design with photo-realistic details. It&apos;s the perfect place to relax, unwind, and enjoy life.
       </p>
     </div>
   );
@@ -69,12 +69,11 @@ const SkeletonFive = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Rivers are serene
+        Scary Head Werewolf
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A house by the river is a place of peace and tranquility. It&apos;s the
-        perfect place to relax, unwind, and enjoy life.
+        Scary Head Werewolf tattoo design with photo-realistic details. It&apos;s the perfect place to relax, unwind, and enjoy life.
       </p>
     </div>
   );
