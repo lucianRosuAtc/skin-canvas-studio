@@ -29,19 +29,19 @@ export const ourTeam = [
 // MARK: Our Journey 2024 
 export const ourJourney2024 = [
     {
-        image:"/img/bigCat/Lion1.jpg",
+        image:"/img/bigCat/Lion1.webp",
         desc:"Lorem ipsum dolor sit.",
     },
     {
-        image:"/img/bigCat/Lion1.jpg",
+        image:"/img/bigCat/Lion1.webp",
         desc:"Lorem ipsum dolor sit.",
     },
     {
-        image:"/img/bigCat/Lion1.jpg",
+        image:"/img/bigCat/Lion1.webp",
         desc:"Lorem ipsum dolor sit.",
     },
     {
-        image:"/img/bigCat/Lion1.jpg",
+        image:"/img/bigCat/Lion1.webp",
         desc:"Lorem ipsum dolor sit.",
     },
 ]

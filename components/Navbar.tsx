@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <div className="hidden md:flex justify-between light:bg-gray-200 h-20 border-b-2 border-b-primary ">
         <Link href="/" className="flex ml-16 items-center justify-center">
-          <Image src="/img/bigCat/Lion1.jpg"
+          <Image src="/img/bigCat/Lion1.webp"
             width={60}
             height={60}
             alt="Skin Canvas Studio Logo"

@@ -16,8 +16,8 @@ export default function Hero() {
         <p className=''>
           The traditional tattoo style, also known as &apos;American Traditional&apos; or &apos;Old School&apos;, is one of the most classic and recognizable aesthetics in tattooing. Discover and book the best traditional tattoo artists near you in just a few easy steps.
         </p>
-        <div className='mt-10'>
-          <Link href="/Gallery" className={`bg-red-800 px-9 py-4 rounded-full text-white ${lora.className}`}>
+        <div className='my-12 md:my-20'>
+          <Link href="/Gallery" className={`bg-red-800 px-9 py-4 rounded-full md:text-3xl text-white font-semibold shadow-inner  ${lora.className}`}>
             Explore Gallery
           </Link>
         </div>

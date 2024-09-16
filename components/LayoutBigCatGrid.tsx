@@ -13,12 +13,11 @@ const SkeletonOne = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        House in the woods
+        Lion Head
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A serene and tranquil retreat, this house in the woods offers a peaceful
-        escape from the hustle and bustle of city life.
+        Realistic lion head tattoo with great details and expression.
       </p>
     </div>
   );
@@ -28,13 +27,11 @@ const SkeletonTwo = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        House above the clouds
+        Lion head with leaf
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Perched high above the world, this house offers breathtaking views and a
-        unique living experience. It&apos;s a place where the sky meets home,
-        and tranquility is a way of life.
+        A lion head tattoo with leaf. A symbol of power and strength.
       </p>
     </div>
   );
@@ -44,12 +41,11 @@ const SkeletonThree = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Greens all over
+        Faded Lion Head
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A house surrounded by greenery and nature&apos;s beauty. It&apos;s the
-        perfect place to relax, unwind, and enjoy life.
+        A faded lion head tattoo with greath details and expresive eyes.
       </p>
     </div>
   );
@@ -59,12 +55,11 @@ const SkeletonFour = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Rivers are serene
+        Lion head front view
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A house by the river is a place of peace and tranquility. It&apos;s the
-        perfect place to relax, unwind, and enjoy life.
+        Great details and on this lion head tattoo. Done in middle tones of grey.
       </p>
     </div>
   );
@@ -74,12 +69,11 @@ const SkeletonFive = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Rivers are serene
+        Tiger head hat
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A house by the river is a place of peace and tranquility. It&apos;s the
-        perfect place to relax, unwind, and enjoy life.
+        Full back tattoo of a barbarian woman with a tiger head as a hat.
       </p>
     </div>
   );
@@ -89,12 +83,11 @@ const SkeletonSix = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Greens all over
+        Realistic Tiger Head
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A house surrounded by greenery and nature&apos;s beauty. It&apos;s the
-        perfect place to relax, unwind, and enjoy life.
+        Realistic tiger head tattoo with great details and expression.
       </p>
     </div>
   );
@@ -104,12 +97,11 @@ const SkeletonSeven = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Greens all over
+        Tiger Head Front View
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A house surrounded by greenery and nature&apos;s beauty. It&apos;s the
-        perfect place to relax, unwind, and enjoy life.
+        Makes you think to Eyes of a tiger song. You almost feel like Rocky Balboa.
       </p>
     </div>
   );
@@ -124,7 +116,7 @@ const cards = [
     content: <SkeletonOne />,
     className: "md:col-span-2",
     thumbnail:
-      "/img/bigCat/Lion1.jpg",
+      "/img/bigCat/Lion1.webp",
   },
   {
     id: 2,
@@ -150,7 +142,7 @@ const cards = [
   {
     id: 5,
     content: <SkeletonFive />,
-    className: "md:col-span-2",
+    className: "md:col-span-1",
     thumbnail:
       "/img/bigCat/realismTigerFace.jpg",
   },
