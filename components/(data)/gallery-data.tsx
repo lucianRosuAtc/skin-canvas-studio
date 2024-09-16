@@ -19,18 +19,24 @@ export const galleryData = [
         gridLayout: <LayoutBigCatGrid />,
     },
     {
-        category: "Realism",
-        name: "Realism",
-        description: "Japanese tattoo design with a dragon and a tiger, a symbol of power and strength.",
+        category: "Geometric",
+        name: "Geometric",
+        description: "Geometric floral patterns that are perfect for those who love clean lines and symmetry.",
         gridLayout: <LayoutGeometricGrid />,
     },
     {
-        category: "Photorealism",
-        name: "Photorealism",
-        description: "Photorealism tattoo design with a dragon and a tiger, a symbol of power and strength.",
+        category: "Blood Moon",
+        name: "Blood Moon",
+        description: "Photorealism Blood Moon tattoo design with photo-realistic details.",
         gridLayout: <LayoutMoonGrid />,
     },
-
+    {
+        category: "Realism",
+        name: "Realism",
+        description: "Realism tattoo design with photo-realistic details.",
+        gridLayout: <LayoutMoonGrid />,
+    },
+   
 ];
 
 
