@@ -39,7 +39,9 @@ const ScrollToTopButton = () => {
     >
       <div className="border-2 border-white p-1 rounded-full">
         {/* <ChevronUp className="h-8 w-8" aria-hidden="true" /> */}
+        <div className="animate-bounce transition-all">
         <Rocket className="h-8 w-8 -rotate-45 p-1" aria-hidden="true" />
+        </div>
       </div>
     </button>
   );

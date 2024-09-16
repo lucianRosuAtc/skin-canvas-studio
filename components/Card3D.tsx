@@ -30,7 +30,7 @@ export default function Card3D() {
                                     src={artist.image}
                                     height="100"
                                     width="250"
-                                    className="h-40 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                                    className="h-40 w-full object-cover object-top rounded-xl group-hover/card:shadow-xl"
                                     alt="thumbnail"
                                 />
                             </CardItem>
