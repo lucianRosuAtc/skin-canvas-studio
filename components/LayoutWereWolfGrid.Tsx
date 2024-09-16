@@ -27,11 +27,11 @@ const SkeletonTwo = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Ultrarealistic Blood Moon
+        Ultrarealistic wolf head with forest background
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Blood moon Tattoo design with photo-realistic details. It&apos;s the perfect place to relax, unwind, and enjoy life.
+       Ultrarealistic wolf head with forest background tattoo design with photo-realistic details. It&apos;s the perfect place to relax, unwind, and enjoy life.
       </p>
     </div>
   );
@@ -90,7 +90,6 @@ const cards = [
     className: "md:col-span-1",
     thumbnail:
     "/img/werewolf/werewolf3.jpg",
-     
   },
   {
     id: 2,
