@@ -1,7 +1,7 @@
 import React from "react";
 import { LayoutGrid } from "./ui/layout-grid";
 
-export function LayoutMoonGrid() {
+export function LayoutWereWolfGrid() {
   return (
     <div className="h-screen w-full">
       <LayoutGrid cards={cards} />
@@ -13,11 +13,11 @@ const SkeletonOne = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-      Blood Moon
+      Werewolf sleve tattoo
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Blood moon Tattoo design with photo-realistic details. It&apos;s the perfect place to relax, unwind, and enjoy life.
+        Werewolf tattoo design with photo-realistic details. It&apos;s the perfect place to relax, unwind, and enjoy life.
       </p>
     </div>
   );
@@ -65,6 +65,20 @@ const SkeletonFour = () => {
   );
 };
 
+const SkeletonFive = () => {
+  return (
+    <div>
+      <p className="font-bold md:text-4xl text-xl text-white">
+        Rivers are serene
+      </p>
+      <p className="font-normal text-base text-white"></p>
+      <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
+        A house by the river is a place of peace and tranquility. It&apos;s the
+        perfect place to relax, unwind, and enjoy life.
+      </p>
+    </div>
+  );
+};
 
 
 
@@ -75,29 +89,37 @@ const cards = [
     content: <SkeletonOne />,
     className: "md:col-span-1",
     thumbnail:
-    "/img/moon/bigMoon-I .webp",
+    "/img/werewolf/werewolf3.jpg",
      
   },
   {
     id: 2,
     content: <SkeletonTwo />,
-    className: "col-span-2",
+    className: "col-span-1",
     thumbnail:
-    "/img/moon/bloodMoonAndStars-II.webp",
+    "/img/werewolf/werewolf2.jpg",
   },
   {
     id: 3,
     content: <SkeletonThree />,
-    className: "col-span-2",
+    className: "col-span-1",
     thumbnail:
-    "/img/moon/manyMoons-III.webp",
+    "/img/werewolf/werewolfForest.jpg",
   },
   {
     id: 4,
     content: <SkeletonFour />,
     className: "md:col-span-1",
     thumbnail:
-      "/img/moon/moons-IV.webp",
+      "/img/werewolf/werewolf-forest-red eye.jpg",
+  },
+  {
+    id: 5,
+    content: <SkeletonFive />,
+    className: "md:col-span-2",
+    thumbnail:
+      "/img/werewolf/werewolf scary.webp",
   },
 
 ];
+
