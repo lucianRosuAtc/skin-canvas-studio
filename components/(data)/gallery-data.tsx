@@ -3,7 +3,7 @@ import { LayoutAsianGrid } from '../LayoutAsianGrid'
 import { LayoutBigCatGrid } from '../LayoutBigCatGrid'
 import { LayoutGeometricGrid } from '../LayoutGeometricGrid'
 import { LayoutMoonGrid } from '../LayoutMoonGrid'
-import { LayoutWereWolfGrid } from '../LayoutWereWolfGrid'
+// import { LayoutWereWolfGrid } from '../LayoutWereWolfGrid'
 
 
 
@@ -32,12 +32,12 @@ export const galleryData = [
         description: "Photorealism Blood Moon tattoo design with photo-realistic details.",
         gridLayout: <LayoutMoonGrid />,
     },
-    {
-        category: "WereWolf",
-        name: "WereWolf",
-        description: "Werewolf tattoo design with photo-realistic details and forest background. Most popular tattoo design.",
-        gridLayout: <LayoutWereWolfGrid />,
-    },
+    // {
+    //     category: "WereWolf",
+    //     name: "WereWolf",
+    //     description: "Werewolf tattoo design with photo-realistic details and forest background. Most popular tattoo design.",
+    //     gridLayout: <LayoutWereWolfGrid />,
+    // },
    
 ];
 
