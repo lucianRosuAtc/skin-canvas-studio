@@ -1,7 +1,7 @@
 import React from "react";
 import { LayoutGrid } from "./ui/layout-grid";
 
-export function LayoutWereWolfGrid() {
+export function LayoutWerewolfGrid() {
   return (
     <div className="h-screen w-full">
       <LayoutGrid cards={cards} />
@@ -80,7 +80,7 @@ const SkeletonFive = () => {
 };
 
 
-
+// MARK: Cards data
 
 const cards = [
   {
