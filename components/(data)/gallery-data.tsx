@@ -6,6 +6,7 @@ import { LayoutMoonGrid } from '../LayoutMoonGrid'
 import { LayoutWereWolfGrid } from '../LayoutWereWolfGrid'
 
 
+
 export const galleryData = [
     {
         category: "Japanese ",
