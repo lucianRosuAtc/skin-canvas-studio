@@ -3,7 +3,7 @@ import { LayoutAsianGrid } from '../LayoutAsianGrid'
 import { LayoutBigCatGrid } from '../LayoutBigCatGrid'
 import { LayoutGeometricGrid } from '../LayoutGeometricGrid'
 import { LayoutMoonGrid } from '../LayoutMoonGrid'
-import { LayoutWerewolfGrid } from '../LayoutWereWolfGrid'
+import { LayoutWolfGrid } from '../LayoutWolfGrid'
 
 
 export const galleryData = [
@@ -35,7 +35,7 @@ export const galleryData = [
         category: "WereWolf",
         name: "WereWolf",
         description: "Werewolf tattoo design with photo-realistic details and forest background. Most popular tattoo design.",
-        gridLayout: <LayoutWerewolfGrid />,
+        gridLayout: <LayoutWolfGrid />,
     },
    
 ];
