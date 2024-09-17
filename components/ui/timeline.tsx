@@ -43,7 +43,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         </h2>
         <div className="w-full bg-primary h-[2px] my-4"></div>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base mb-3">
-          Skin Canvas Studio was born from a passion for tattoo artistry and a desire to create a platform that celebrates the diverse world of tattooing. Founded in 2019 by a group of tattoo enthusiasts and artists, our mission is to connect talented tattoo artists with clients who appreciate the art form.</p>
+          Skin Canvas Studio was born from a passion for tattoo artistry and a desire to create a platform that celebrates the diverse world of tattooing. Founded in 2020 by a group of tattoo enthusiasts and artists, our mission is to connect talented tattoo artists with clients who appreciate the art form.</p>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
           We believe that tattoos are more than just ink on skin - they&apos;re personal stories, expressions of identity, and works of art that last a lifetime. At Skin Canvas Studio, we&apos;re dedicated to elevating the tattoo experience for both artists and clients.
         </p>

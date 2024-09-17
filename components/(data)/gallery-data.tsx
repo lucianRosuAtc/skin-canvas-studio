@@ -15,9 +15,9 @@ export const galleryData = [
         gridLayout: <LayoutAsianGrid />,
     },
     {
-        category: "Big Cat",
-        name: "Big Cat",
-        description: "Big Cat tattoo design with a dragon and a tiger, a symbol of power and strength.",
+        category: "Big Cats",
+        name: "Big Cats",
+        description: "Big Cats tattoo design with a dragon and a tiger, a symbol of power and strength.",
         gridLayout: <LayoutBigCatGrid />,
     },
     {

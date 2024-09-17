@@ -6,8 +6,8 @@ export const images = [
     },
     {
         url: '/img/hero/tiger-tattoo-realism.jpg',
-        name: 'Realism Big Cat',
-        description: 'Big Cat realism tattoo. Our artist are professional and have a lot of experience in this style. We are the best in the city.',
+        name: 'Realism Big Cats',
+        description: 'Big Cats realism tattoo. Our artist are professional and have a lot of experience in this style. We are the best in the city.',
     },
     {
         url: '/img/hero/realism-mecanic.webp',

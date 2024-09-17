@@ -116,49 +116,49 @@ const cards = [
     content: <SkeletonOne />,
     className: "md:col-span-2",
     thumbnail:
-      "/img/bigCat/Lion1.webp",
+      "/img/bigCats/Lion1.webp",
   },
   {
     id: 2,
     content: <SkeletonTwo />,
     className: "col-span-1",
     thumbnail:
-      "/img/bigCat/lionRealismLeaf.jpg",
+      "/img/bigCats/lionRealismLeaf.jpg",
   },
   {
     id: 3,
     content: <SkeletonThree />,
     className: "col-span-1",
     thumbnail:
-      "/img/bigCat/realismLion.jpg",
+      "/img/bigCats/realismLion.jpg",
   },
   {
     id: 4,
     content: <SkeletonFour />,
     className: "md:col-span-2",
     thumbnail:
-      "/img/bigCat/realismLionMeal.jpeg",
+      "/img/bigCats/realismLionMeal.jpeg",
   },
   {
     id: 5,
     content: <SkeletonFive />,
     className: "md:col-span-1",
     thumbnail:
-      "/img/bigCat/realismTigerFace.jpg",
+      "/img/bigCats/realismTigerFace.jpg",
   },
   {
     id: 6,
     content: <SkeletonSix />,
     className: "md:col-span-1",
     thumbnail:
-      "/img/bigCat/tiger-tattoo-realism.jpg",
+      "/img/bigCats/tiger-tattoo-realism.jpg",
   },
   {
     id: 7,
     content: <SkeletonSeven />,
     className: "md:col-span-1",
     thumbnail:
-      "/img/bigCat/tigerRealism.jpg",
+      "/img/bigCats/tigerRealism.jpg",
   },
 
 ];

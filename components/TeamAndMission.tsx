@@ -23,16 +23,15 @@ export default function TeanAndMission() {
                 alt={teamMember.name}
                 width={96}
                 height={96}
-                className="w-24 h-24 rounded-full mx-auto my-3"
+                className="w-36 h-36 rounded-full mx-auto my-3 border-4 border-b-primary "
               />
-              <h4 className="">
-
+              <h4 className="py-2">
                 {teamMember.name}
               </h4>
-              <h4 className="">
+              <h5 className="pb-4">
                 {teamMember.position}
-              </h4>
-              <p className="">
+              </h5>
+              <p className="text-muted-foreground px-6 pb-6">
                 {teamMember.bio}
               </p>
             </div>

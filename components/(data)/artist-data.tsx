@@ -11,9 +11,9 @@ export const artistsData = [
 
     },
     {
-        image: '/img/artist/artistB2.webp',
-        desc: 'John Tank specializes in bold, large-scale tattoos, blending traditional and modern styles. With a reputation for precision and creativity, his work is defined by clean lines and striking color compositions, making him a favorite among tattoo enthusiasts.',
-        name: 'John Tank',
+        image: '/img/artist/artistB3.webp',
+        desc: 'John Upsale specializes in bold, large-scale tattoos, blending traditional and modern styles. With a reputation for precision and creativity, his work is defined by clean lines and striking color compositions, making him a favorite among tattoo enthusiasts.',
+        name: 'John Upsale',
         sm: "https://www.linkedin.com/in/lucian-rosu-atc/",
         design: 'Blackwork',
         secondDesign: 'Geometric',

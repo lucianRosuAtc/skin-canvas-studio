@@ -1,29 +1,44 @@
 // MARK: Our Team 
 export const ourTeam = [
     {
-        name: 'Jake Thompson',
+        name: 'Jake Williams',
         position: 'Founder & CEO',
-        image: '/img/artist/wall1.webp',
-        bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        image: '/img/managers/CEO.webp',
+        bio: 'Jake Williams is the founder and CEO of Skin Canvas Studio. He has over 10 years of experience in the tattoo industry and is passionate about promoting tattoo artistry as a respected and valued form of creative expression.'
     },
     {
-        name: 'Maria Rodriguez',
+        name: 'Jasmine Harris',
         position: 'CTO',
-        image: '/img/artist/wall1.webp',
-        bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        image: '/img/managers/CTO.webp',
+        bio: 'Jasmine Harris is the Chief Technology Officer at Skin Canvas Studio. She is responsible for overseeing the development of our digital platform and ensuring that our artists have the tools they need to succeed.'
     },
     {
-        name: 'Alex Chen',
-        position: 'Tech Lead',
-        image: '/img/artist/wall1.webp',
-        bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    },
-    {
-        name: 'Sarah Johnson',
+        name: 'Sarah Clark',
         position: 'Media Manager',
-        image: '/img/artist/wall1.webp',
-        bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        image: '/img/managers/MediaManager.webp',
+        bio: 'Sarah Clark is the Media Manager at Skin Canvas Studio. She is responsible for overseeing our social media channels and creating engaging content for our community.'
     },
+    {
+        name: 'Javier Brown',
+        position: 'Tech Lead',
+        image: '/img/managers/Javi.webp',
+        bio: 'Javier Brown is the Tech Lead at Skin Canvas Studio. He is responsible for managing our team of developers and ensuring that our digital platform is running smoothly.'
+    },
+    {
+        
+        name: 'Alexander Taylor',
+        position: 'Artist Relations',
+        image: '/img/managers/Alexander.webp',
+        bio: 'Alexander Taylor is the Artist Relations Manager at Skin Canvas Studio. He is responsible for recruiting and managing our team of talented artists.'
+    },
+    {
+        name: 'Christian Lewis',
+        position: 'Customer Support',
+        image: '/img/managers/Christian.webp',
+        bio: 'Cristian Lewis is a Customer Support Specialist at Skin Canvas Studio. He is responsible for assisting our clients with any questions or concerns they may have.'
+    },
+   
+   
 ]
 
 // MARK: Our Journey 2024 
