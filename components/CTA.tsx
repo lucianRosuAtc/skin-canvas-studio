@@ -8,7 +8,6 @@ export default function CTA() {
       <p className="text-lg mb-6">Transform your body into a canvas of art. Book your appointment today and get inked by the best artists in town!</p>
       <Link href="/Contact" className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full transition duration-300">
           Book an Appointment
-        
       </Link>
     </div>
   );

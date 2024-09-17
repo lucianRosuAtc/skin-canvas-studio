@@ -13,12 +13,12 @@ const SkeletonOne = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Full Back Geometric Tattoo
+        Full Sleve Floral Tattoo
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A full back tattoo with geometric patterns that are perfect for those
-        who love clean lines and symmetry.
+        A full sleve tattoo with floral patterns that are perfect for those
+        who love nature.
       </p>
     </div>
   );
@@ -28,12 +28,11 @@ const SkeletonTwo = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Geometric patterns
+        Skull with Maya civilisation theme
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A collection of geometric patterns that are perfect for those who love
-        clean lines and symmetry.
+        A skull tattoo with Maya civilisation theme. A symbol of power and strength.
       </p>
     </div>
   );
@@ -43,12 +42,11 @@ const SkeletonThree = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Medium Size Back Geometric Tattoo
+        Big Floral tattoo
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A medium size back tattoo with geometric patterns that are perfect for
-        those who love clean lines and symmetry.
+        A big floral tattoo with photo-realistic details. It&apos;s the perfect place to relax, unwind, and enjoy life.
       </p>
     </div>
   );
@@ -58,12 +56,11 @@ const SkeletonFour = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Full Back and Neck Geometric Tattoo
+        Snake on the Hand Tattoo
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A full back and neck tattoo with geometric patterns that are perfect for
-        those who love clean lines and symmetry
+        A snake tattoo on the hand with photo-realistic details. It&apos;s the perfect place to relax, unwind, and enjoy life.
       </p>
     </div>
   );
@@ -73,12 +70,11 @@ const SkeletonFive = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Full Back and Neck Geometric Tattoo
+        Moon and Flowers Tattoo
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A full back and neck tattoo with geometric patterns that are perfect for
-        those who love clean lines and symmetry
+        A moon and flowers tattoo with photo-realistic details. It&apos;s the perfect place to relax, unwind, and enjoy life.
       </p>
     </div>
   );
@@ -87,12 +83,11 @@ const SkeletonSix = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Full Back and Neck Geometric Tattoo
+        Jesus Christ Tattoo
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A full back and neck tattoo with geometric patterns that are perfect for
-        those who love clean lines and symmetry
+        A Jesus Christ tattoo with photo-realistic details. It&apos;s the perfect place to relax, unwind, and enjoy life.
       </p>
     </div>
   );
@@ -128,22 +123,21 @@ const cards = [
     content: <SkeletonFour />,
     className: "md:col-span-1",
     thumbnail:
-    "/img/realism/realism-snake.jpg",
+      "/img/realism/realism-snake.jpg",
   },
   {
     id: 5,
     content: <SkeletonFive />,
     className: "md:col-span-1",
     thumbnail:
-    
-    "/img/realism/realismFlowersAndMoon.webp",
+      "/img/realism/realismFlowersAndMoon.webp",
   },
   {
     id: 6,
     content: <SkeletonSix />,
     className: "md:col-span-1",
     thumbnail:
-    "/img/realism/realism.jpg",
+      "/img/realism/realism.jpg",
   },
 
 ];
