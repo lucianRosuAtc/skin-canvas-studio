@@ -3,7 +3,7 @@ import { LayoutAsianGrid } from '../LayoutAsianGrid'
 import { LayoutBigCatGrid } from '../LayoutBigCatGrid'
 import { LayoutGeometricGrid } from '../LayoutGeometricGrid'
 import { LayoutMoonGrid } from '../LayoutMoonGrid'
-import { LayoutWerewolfGrid } from '../LayoutWereWolfGrid';
+import { LayoutWerewolfGrid } from '../LayoutWereWolfGrid'
 
 
 export const galleryData = [
