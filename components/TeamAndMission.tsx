@@ -24,7 +24,7 @@ export default function TeanAndMission() {
                 alt={teamMember.name}
                 width={96}
                 height={96}
-                className="w-36 h-36 rounded-full mx-auto my-3 border-4 border-white dark:border-neutral-300 border-b-primary dark:border-b-primary shadow-xl"
+                className="w-36 h-36 rounded-full mx-auto my-3 border-4 border-neutral-300 dark:border-neutral-700 border-b-primary dark:border-b-primary shadow-xl p-1"
               />
               <h4 className={`py-2 ${lora.className}`}>
                 {teamMember.name}
