@@ -29,7 +29,7 @@ export const ourTeam = [
 // MARK: Our Journey 2024 
 export const ourJourney2024 = [
     {
-        image: "/img/bigCat/Lion1.webp",
+        image: "/img/ourJourney/Lion1.webp",
         desc: "Lorem ipsum dolor sit.",
     },
     {
