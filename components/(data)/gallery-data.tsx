@@ -35,7 +35,7 @@ export const galleryData = [
     {
         category: "WereWolf",
         name: "WereWolf",
-        description: "Werewolf tattoo design with photo-realistic details and forest background.",
+        description: "Werewolf tattoo design with photo-realistic details and forest background. Most popular tattoo design.",
         gridLayout: <LayoutWereWolfGrid />,
     },
    
