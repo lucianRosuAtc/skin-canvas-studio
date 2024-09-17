@@ -29,7 +29,7 @@ export default function Gallery() {
         </div>
 
         <Tabs defaultValue={category} className="mb-12 xl:mb-24">
-          <TabsList className="grid md:grid-cols-6 w-full max-w-[900px] h-full mb-12 mx-auto md:border dark:border-none ">
+          <TabsList className="grid md:grid-cols-7 w-full max-w-[1100px] h-full mb-12 mx-auto md:border dark:border-none ">
             {categories.map((category, index) => {
               return (
                 <TabsTrigger
