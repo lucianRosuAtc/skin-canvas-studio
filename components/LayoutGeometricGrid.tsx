@@ -70,9 +70,7 @@ const SkeletonFour = () => {
 };
 
 
-
-
-
+// MARK: Cards data
 
 const cards = [
   {

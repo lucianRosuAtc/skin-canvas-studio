@@ -3,7 +3,7 @@ import { LayoutAsianGrid } from '../LayoutAsianGrid'
 import { LayoutBigCatGrid } from '../LayoutBigCatGrid'
 import { LayoutGeometricGrid } from '../LayoutGeometricGrid'
 import { LayoutMoonGrid } from '../LayoutMoonGrid'
-import { LayoutWereWolfGrid } from '../LayoutWereWolfGrid';
+import { LayoutWereWolfGrid } from '../LayoutWereWolfGrid'
 
 
 

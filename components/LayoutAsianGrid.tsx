@@ -123,9 +123,7 @@ const SkeletonEight = () => {
   );
 };
 
-
-
-
+// MARK: Cards data
 
 const cards = [
   {
