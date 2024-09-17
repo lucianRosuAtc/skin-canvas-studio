@@ -89,5 +89,9 @@ h4{
   @apply text-base md:text-lg lg:text-xl font-bold;
 }
 
+h5{
+  @apply text-sm md:text-base text-muted-foreground font-bold;
+}
+
 
 

@@ -13,9 +13,9 @@ export function TimelineComp() {
             title: "Early 2024",
             content: (
                 <div>
-                    <p className="text-neutral-800 dark:text-neutral-200 mb-8 ">
+                    <h5 className="text-neutral-800 dark:text-neutral-200 mb-8 ">
                         Skin Canvas Studio celebrates reaching over 5,000 satisfied clients and 100 partnered artists.
-                    </p>
+                    </h5>
 
                     <div className="grid grid-cols-2 gap-4">
                         {ourJourney2024.map((image, index) => (
@@ -40,9 +40,9 @@ export function TimelineComp() {
             title: "Early 2023",
             content: (
                 <div>
-                    <p className="text-neutral-800 dark:text-neutral-200 mb-8">
+                    <h5 className="text-neutral-800 dark:text-neutral-200 mb-8">
                         We introduce virtual consultations, making tattoo planning accessible worldwide.
-                    </p>
+                    </h5>
 
                     <div className="grid grid-cols-2 gap-4">
                         {ourJourney2023.map((image, index) => (
@@ -67,9 +67,9 @@ export function TimelineComp() {
             title: "Early 2022",
             content: (
                 <div>
-                    <p className="text-neutral-800 dark:text-neutral-200 mb-8">
+                    <h5 className="text-neutral-800 dark:text-neutral-200 mb-8">
                         Skin Cannvas Studio hosts its first international tattoo convention in London.
-                    </p>
+                    </h5>
 
                     <div className="grid grid-cols-2 gap-4">
                         {ourJourney2022.map((image, index) => (
@@ -94,9 +94,9 @@ export function TimelineComp() {
             title: "Early 2021",
             content: (
                 <div>
-                    <p className="text-neutral-800 dark:text-neutral-200 mb-8">
+                    <h5 className="text-neutral-800 dark:text-neutral-200 mb-8">
                         Skin Cannvas Studio hosts its first international tattoo convention in London.
-                    </p>
+                    </h5>
 
                     <div className="grid grid-cols-2 gap-4">
                         {ourJourney2021.map((image, index) => (
@@ -121,9 +121,9 @@ export function TimelineComp() {
             title: "Early 2020",
             content: (
                 <div>
-                    <p className="text-neutral-800 dark:text-neutral-200 mb-8">
+                    <h5 className="text-neutral-800 dark:text-neutral-200 mb-8">
                         Skin Canvas Studio is founded in a small studio in Exeter, Devon, Uk, by a group of tattoo enthusiasts and artists.
-                    </p>
+                    </h5>
 
                     <div className="grid grid-cols-2 gap-4">
                         {ourJourney2020.map((image, index) => (
