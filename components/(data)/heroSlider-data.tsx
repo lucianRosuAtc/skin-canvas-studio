@@ -1,7 +1,7 @@
 export const images = [
     {
         url: '/img/hero/asianArmTatoo.webp',
-        name: 'Asian',
+        name: 'Japanese',
         description: 'Welcome to SkinCanvas Studio - Where Art Meets Skin. Transform Your Body into a Living Masterpiece with Our Award-Winning Artists. Precision, Passion, and Creativity in Every Stroke.',
     },
     {

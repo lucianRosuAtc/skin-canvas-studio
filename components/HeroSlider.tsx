@@ -35,7 +35,7 @@ const HeroSlider = () => {
               onClick={() => handleImageClick(index)}
             >
               {index === currentIndex && (
-                <div className="absolute top-[70%] lg:top-[40%] left-10 lg:left-24 right-24 transform -translate-y-3/4 lg:-translate-y-1/4  text-white text-left transition-all duration-700">
+                <div className="absolute top-[70%] lg:top-[40%] left-10 lg:left-24 right-24 transform -translate-y-3/4 lg:-translate-y-1/4 text-white text-left transition-all duration-700">
                   <div className="text-4xl font-bold uppercase">{image.name}</div>
                   <div className={`mt-2 mb-4 text-sm md:text-2xl ${lora.className}`}>{image.description}</div>
                 </div>
