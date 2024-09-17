@@ -9,11 +9,11 @@ import Image from "next/image";
 export default function Navbar() {
   const pathname = usePathname();
   return (
-    <div className="hidden md:flex justify-between light:bg-gray-200 h-20 border-b-2 border-b-primary ">
+    <div className="hidden md:flex justify-between light:bg-gray-200 h-24 border-b-2 border-b-primary ">
         <Link href="/" className="flex ml-16 items-center justify-center">
           <Image src="/img/bigCats/Lion1.webp"
-            width={60}
-            height={60}
+            width={70}
+            height={70}
             alt="Skin Canvas Studio Logo"
             className="flex mx-auto rounded-full border-2 border-primary shadow-xl" />
         </Link>

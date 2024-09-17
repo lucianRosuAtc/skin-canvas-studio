@@ -5,7 +5,7 @@ import { lora, dancing } from './fonts';
 
 export default function TeanAndMission() {
   return (
-    <div className=' pt-1 pb-16 w-full bg-gray-50 dark:bg-neutral-950 font-sans md:px-10'>
+    <div className=' pt-1 pb-10 md:pb-16 w-full bg-gray-50 dark:bg-neutral-950 font-sans px-4 md:px-10'>
 
       {/* MARK: Team  */}
       <div className="max-w-7xl mx-auto py-20 mb-16 mt-6 px-4 md:px-8 lg:px-10 border rounded-lg light:bg-white shadow-xl">
@@ -24,7 +24,7 @@ export default function TeanAndMission() {
                 alt={teamMember.name}
                 width={96}
                 height={96}
-                className="w-36 h-36 rounded-full mx-auto my-3 border-4 border-neutral-300 dark:border-neutral-700 border-b-primary dark:border-b-primary shadow-xl p-1"
+                className="w-28 sm:w-36 h-28 sm:h-36 rounded-full mx-auto my-3 border-4 border-neutral-300 dark:border-neutral-700 border-b-primary dark:border-b-primary shadow-xl p-1"
                 priority
               />
               <h4 className={`py-2 ${lora.className}`}>
@@ -33,7 +33,7 @@ export default function TeanAndMission() {
               <h4 className={`pb-4 text-muted-foreground ${dancing.className}`}>
                 {teamMember.position}
               </h4>
-              <p className="text-muted-foreground px-6 pb-6">
+              <p className="text-sm text-muted-foreground px-2 sm:px-6 pb-2 sm:pb-6">
                 {teamMember.bio}
               </p>
             </div>
