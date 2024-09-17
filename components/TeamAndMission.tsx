@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { ourTeam } from './(data)/about-data'
+import { lora, dancing } from './fonts';
 
 export default function TeanAndMission() {
   return (
@@ -23,14 +24,14 @@ export default function TeanAndMission() {
                 alt={teamMember.name}
                 width={96}
                 height={96}
-                className="w-36 h-36 rounded-full mx-auto my-3 border-4 border-b-primary "
+                className="w-36 h-36 rounded-full mx-auto my-3 border-4 border-white dark:border-neutral-300 border-b-primary dark:border-b-primary shadow-xl"
               />
-              <h4 className="py-2">
+              <h4 className={`py-2 ${lora.className}`}>
                 {teamMember.name}
               </h4>
-              <h5 className="pb-4">
+              <h4 className={`pb-4 text-muted-foreground ${dancing.className}`}>
                 {teamMember.position}
-              </h5>
+              </h4>
               <p className="text-muted-foreground px-6 pb-6">
                 {teamMember.bio}
               </p>
