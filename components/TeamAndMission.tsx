@@ -5,11 +5,11 @@ import { lora, dancing } from './fonts';
 
 export default function TeanAndMission() {
   return (
-    <div className=' pt-1 pb-10 md:pb-16 w-full bg-gray-50 dark:bg-neutral-950 font-sans px-4 md:px-10'>
+    <div className=' pt-1 pb-10 md:pb-16 w-full font-sans'>
 
       {/* MARK: Team  */}
       <div className="max-w-7xl mx-auto py-6 md:py-20 mb-16 mt-6 px-4 md:px-8 lg:px-10 border rounded-lg light:bg-white shadow-xl">
-        <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
+        <h2 className="text-lg md:text-4xl mb-4  max-w-4xl">
           Our Team
         </h2>
         <div className="w-full bg-primary h-[2px] my-4"></div>
@@ -43,7 +43,7 @@ export default function TeanAndMission() {
       </div>
 
       {/* MARK: Mission  */}
-      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10 border rounded-lg light:bg-white shadow-xl">
+      <div className="max-w-7xl mx-auto py-6 md:py-20 px-4 md:px-8 lg:px-10 border rounded-lg light:bg-white shadow-xl">
         <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
           Our Mission
         </h2>
@@ -52,7 +52,7 @@ export default function TeanAndMission() {
           Behind Skin Canvas Studio is a dedicated team of professionals who are passionate about tattoo art and committed to providing the best experience for our community.</p>
 
         <h4>At InkFlow, our mission is to:</h4>
-        <ul className="mt-4">
+        <ul className="mt-4 text-sm md:text-base">
           <li><p>✅ Promote tattoo artistry as a respected and valued form of creative expression</p></li>
           <li><p>✅ Provide a platform for talented artists to showcase their work and connect with clients</p></li>
           <li><p>✅ Educate the public about tattoo safety, aftercare, and the artistic process</p></li>
