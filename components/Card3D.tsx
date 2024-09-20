@@ -11,7 +11,7 @@ export default function Card3D() {
                 <div key={artist.image}>
 
                     <CardContainer className="inter-var">
-                        <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[290px] h-auto rounded-xl p-6 border">
+                        <CardBody className="bg-gray-50 hover:bg-white relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[290px] h-auto rounded-xl p-6 border">
                             <CardItem
                                 translateZ="50"
                                 className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -39,24 +39,21 @@ export default function Card3D() {
                             {/* MARK: Artist design style  
                             */}
                             <div className="hidden md:flex flex-wrap items-center mt-10 gap-2">
-                               <CardItem
-                                    translateZ={20}
-                                    as="caption"
-                                    className="px-4 py-0.5 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                                <CardItem
+                                    translateZ="60"
+                                    className="px-4 py-0.5 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold shadow-lg"
                                 >
                                     {artist.design}
                                 </CardItem>
                                 <CardItem
-                                    translateZ={40}
-                                    as="caption"
-                                    className="px-4 py-0.5 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                                    translateZ="60"
+                                    className="px-4 py-0.5 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold shadow-lg"
                                 >
                                     {artist.secondDesign}
                                 </CardItem>
                                 <CardItem
-                                    translateZ={20}
-                                    as="caption"
-                                    className="px-4 py-0.5 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                                    translateZ="60"
+                                    className="px-4 py-0.5 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold shadow-lg"
                                 >
                                     {artist.thirdDesign}
                                 </CardItem>
@@ -67,7 +64,7 @@ export default function Card3D() {
                                 <CardItem
                                     translateZ={20}
                                     as={Link}
-                                    href={artist.sm} 
+                                    href={artist.sm}
                                     target="_blank"
                                     className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white dark:text-primary text-xs font-bold mr-1"
                                 >
