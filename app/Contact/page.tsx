@@ -1,6 +1,7 @@
 
 import ContactForm from "../../components/ContactForm";
 import { Clock, HomeIcon, MailIcon, PhoneCall } from "lucide-react";
+import { dancing } from "../../components/fonts";
 
 export default function Contact() {
   return (
@@ -12,7 +13,8 @@ export default function Contact() {
           </div>
 
           <div className="text-center">
-            <h1 className="my-4 mx-auto mb-10 md:mb-20">Contact Us</h1>
+          {/* <h1 className={`${dancing.className} mb-5 md:mb-10`}>Welcome to Skin Canvas Studio</h1> */}
+            <h1 className={`${dancing.className} my-4 mx-auto mb-10 md:mb-20 tracking tracking-widest`}>Contact Us</h1>
           </div>
 
           <div className="flex flex-col md:flex-row mb-8">
