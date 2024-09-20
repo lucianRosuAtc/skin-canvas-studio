@@ -8,7 +8,7 @@ export default function TeanAndMission() {
     <div className=' pt-1 pb-10 md:pb-16 w-full font-sans'>
 
       {/* MARK: Team  */}
-      <div className="max-w-7xl mx-auto py-6 md:py-20 mb-16 mt-6 px-4 md:px-8 lg:px-10 border rounded-lg light:bg-white shadow-xl">
+      <div className="max-w-7xl mx-auto py-6 md:py-20 mb-10 md:mb-16 md:mt-6 px-4 md:px-8 lg:px-10 border rounded-lg light:bg-white shadow-xl">
         <h2 className="text-lg md:text-4xl mb-4  max-w-4xl">
           Our Team
         </h2>

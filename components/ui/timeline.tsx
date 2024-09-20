@@ -34,10 +34,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      className="w-full font-sans md:px-10 pt-10 overflow-hidden"
+      className="w-full font-sans pt-10 overflow-hidden"
       ref={containerRef}
     >
-      <div className="max-w-7xl mx-auto py-6 md:py-20 mt-5 mb-16 px-4 md:px-8 lg:px-10 border rounded-lg light:bg-white shadow-xl">
+      <div className="max-w-7xl mx-auto py-6 md:py-20 mt-5 md:mb-16 px-4 md:px-8 lg:px-10 border rounded-lg light:bg-white shadow-xl">
         <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
           Our Story
         </h2>
@@ -49,7 +49,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         </p>
       </div>
 
-      <div ref={ref} className="relative max-w-7xl mx-auto pb-20 border mt-10 rounded-lg light:bg-white shadow-xl mb-10 overflow-hidden">
+      <div ref={ref} className="relative max-w-7xl mx-auto pb-20 border my-10 rounded-lg light:bg-white shadow-xl  overflow-hidden">
 
         <div className="px-8 mt-8">
           <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
