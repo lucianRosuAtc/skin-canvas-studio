@@ -41,19 +41,19 @@ export default function Card3D() {
                             <div className="hidden md:flex flex-wrap items-center mt-10 gap-2">
                                 <CardItem
                                     translateZ="60"
-                                    className="px-4 py-0.5 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold shadow-lg"
+                                    className="px-4 py-0.5 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                                 >
                                     {artist.design}
                                 </CardItem>
                                 <CardItem
                                     translateZ="60"
-                                    className="px-4 py-0.5 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold shadow-lg"
+                                    className="px-4 py-0.5 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                                 >
                                     {artist.secondDesign}
                                 </CardItem>
                                 <CardItem
                                     translateZ="60"
-                                    className="px-4 py-0.5 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold shadow-lg"
+                                    className="px-4 py-0.5 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                                 >
                                     {artist.thirdDesign}
                                 </CardItem>
