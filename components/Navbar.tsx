@@ -75,7 +75,7 @@ export default function Navbar() {
       </div>
 
       <div
-        className={`fixed top-21 left-0 w-full h-full bg-inherit z-50 transform transition-transform  ease-in-out ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'
+        className={`fixed top-21 left-0 w-full h-full bg-inherit z-50 transform transition-transform duration-300 ease-in-out ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'
           }`}
       >
         <div className="flex flex-col items-start m-8">
