@@ -86,7 +86,9 @@ export default function Navbar() {
               href={navlink.url}
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              {navlink.name}
+              <div className="flex items-center justify-center gap-x-3">
+                {navlink.icon}{navlink.name}
+              </div>
             </Link>
           ))}
         </div>
