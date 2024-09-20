@@ -38,26 +38,25 @@ export default function Card3D() {
 
                             {/* MARK: Artist design style  
                             */}
-                            <div className="hidden md:flex flex-wrap justify-between items-center mt-10 gap-2">
-
-                                <CardItem
+                            <div className="hidden md:flex flex-wrap items-center mt-10 gap-2">
+                               <CardItem
                                     translateZ={20}
-                                    as="button"
-                                    className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                                    as="caption"
+                                    className="px-4 py-0.5 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                                 >
                                     {artist.design}
                                 </CardItem>
                                 <CardItem
-                                    translateZ={20}
-                                    as="button"
-                                    className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                                    translateZ={40}
+                                    as="caption"
+                                    className="px-4 py-0.5 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                                 >
                                     {artist.secondDesign}
                                 </CardItem>
                                 <CardItem
                                     translateZ={20}
-                                    as="button"
-                                    className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                                    as="caption"
+                                    className="px-4 py-0.5 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                                 >
                                     {artist.thirdDesign}
                                 </CardItem>
