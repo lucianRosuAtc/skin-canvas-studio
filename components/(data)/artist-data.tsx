@@ -8,7 +8,6 @@ export const artistsData = [
         design: 'Traditional',
         secondDesign: 'Neo-Traditional',
         thirdDesign: 'Blackwork',
-//        artistName:"",   artistName:"",   
     },
     {
         image: '/img/artist/artistB3.webp',
@@ -40,5 +39,3 @@ export const artistsData = [
 ]
 
 
-
-// desc: "Get in Touch Have a question or ready to schedule your next tattoo? We'd love to hear from you! Address: 123 Ink Street, Tattoo City, TC 12345 Phone: (555) 123-4567 ",
