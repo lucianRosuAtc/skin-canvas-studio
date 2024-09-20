@@ -1,6 +1,6 @@
 'use client';
 import { usePathname } from "next/navigation";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ThemeToggler from './ThemeToggler';
 import Link from 'next/link';
 import { navigationlinks } from "./(data)/navigationlinks-data";
@@ -16,6 +16,14 @@ export default function Navbar() {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
+
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+  }, [isMobileMenuOpen]);
 
   return (
     <>
@@ -67,9 +75,8 @@ export default function Navbar() {
       </div>
 
       <div
-        className={`fixed top-21 left-0 w-full h-full bg-inherit z-50 transform transition-transform  ease-in-out ${
-          isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'
-        }`}
+        className={`fixed top-21 left-0 w-full h-full bg-inherit z-50 transform transition-transform  ease-in-out ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'
+          }`}
       >
         <div className="flex flex-col items-start m-8">
           {navigationlinks.map((navlink) => (
@@ -84,8 +91,7 @@ export default function Navbar() {
           ))}
         </div>
         <div className="mt-16">
-
-        <FloatingDockDemo />
+          <FloatingDockDemo />
         </div>
       </div>
     </>
