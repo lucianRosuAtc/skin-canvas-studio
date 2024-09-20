@@ -17,15 +17,19 @@ export default function Contact() {
 
           <div className="flex flex-col md:flex-row mb-8">
             <div className="flex flex-col">
-              <p className="max-w-[600px] md:mr-6 mb-2 text-sm md:text-base">
+              <div className="max-w-[580px] md:mr-6 mb-2 text-sm md:text-base">
+
+
+              <p>
                 We&apos;d love to hear from you!
               </p>
-              <p className="max-w-[600px] md:mr-6 mb-2 text-sm md:text-base">
+              <p>
                 Whether you have a question about our services, pricing, or anything else, our team is ready to answer all your questions.
               </p>
               <p className="max-w-[600px] md:mr-6 mb-3 md:mb-16 text-sm md:text-base">
                 Fill out the form and we&apos;ll get back to you as soon as possible.
               </p>
+              </div>
 
 
               <div className="flex flex-col my-8 md:my-0 gap-y-6 xl:gap-y-8 xl:text-lg">
