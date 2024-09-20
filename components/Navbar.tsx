@@ -7,7 +7,7 @@ import { navigationlinks } from "./(data)/navigationlinks-data";
 import Image from "next/image";
 import { Menu, X } from 'lucide-react';
 import { lora } from "./fonts";
-import { FloatingDockDemo } from "./FloatingDock";
+import { FloatingDockAnimation } from "./FloatingDock";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -93,7 +93,7 @@ export default function Navbar() {
           ))}
         </div>
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-20">
-          <FloatingDockDemo />
+          <FloatingDockAnimation />
         </div>
       </div>
     </>

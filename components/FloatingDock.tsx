@@ -9,7 +9,7 @@ import {
 } from "@tabler/icons-react";
 
 
-export function FloatingDockDemo() {
+export function FloatingDockAnimation() {
   const links = [
     {
       title: "Contact",

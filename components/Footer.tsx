@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import { FloatingDockDemo } from './FloatingDock'
+import { FloatingDockAnimation } from './FloatingDock'
 import { navigationlinks } from "./(data)/navigationlinks-data";
 import { usePathname } from "next/navigation";
 import Link from 'next/link';
@@ -38,7 +38,7 @@ export default function Footer() {
         </div>
 
         <div className='md:pt-10 mx-auto'>
-          <FloatingDockDemo />
+          <FloatingDockAnimation />
         </div>
       </div>
 
