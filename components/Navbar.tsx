@@ -90,7 +90,7 @@ export default function Navbar() {
             </Link>
           ))}
         </div>
-        <div className="mt-16">
+        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-20">
           <FloatingDockDemo />
         </div>
       </div>
