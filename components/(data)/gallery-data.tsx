@@ -33,8 +33,8 @@ export const galleryData = [
         gridLayout: <LayoutMoonGrid />,
     },
     {
-        category: "WereWolf",
-        name: "WereWolf",
+        category: "Werewolf",
+        name: "Werewolf",
         description: "Werewolf tattoo design with photo-realistic details and forest background. Most popular tattoo design.",
         gridLayout: <LayoutWolfGrid />,
     },
