@@ -69,7 +69,7 @@ export default function Navbar() {
             <ThemeToggler />
           </div>
           <button onClick={toggleMobileMenu} className="text-primary focus:outline-none">
-            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            {isMobileMenuOpen ? <X size={24} className="mr-4"/> : <Menu size={24} />}
           </button>
         </div>
       </div>
