@@ -45,7 +45,7 @@ export default function Footer() {
       <div className="flex justify-center px-4  pb-8 ">
         <p className="text-sm text-center font-medium">
           <span className="pr-1">&copy;</span>
-          {`${year} Luc Dev, All rights reserved.`}
+          {`${year}`}<Link href="https://www.lucianrosu.com/" target='_blank' className='hover:text-primary font-bold'> Lucian Dev</Link>, All rights reserved.
         </p>
       </div>
     </div>

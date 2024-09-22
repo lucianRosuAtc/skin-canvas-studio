@@ -54,7 +54,7 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Navbar */}
-      <div className="flex md:hidden justify-between items-center px-4 py-1 border-b-2 border-b-primary">
+      <div className="flex md:hidden justify-between items-center px-4 py-1 border-b-2 border-b-primary overflow-hidden">
         <Link href="/" className="flex items-center">
           <Image
             src="/img/bigCats/Lion1.webp"
@@ -78,7 +78,7 @@ export default function Navbar() {
         className={`fixed top-21 left-0 w-full h-full bg-inherit z-50 transform transition-transform duration-300 ease-in-out ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'
           }`}
       >
-        <div className="flex flex-col items-start m-8">
+        <div className="flex flex-col items-start m-8 tracking-widest">
           {navigationlinks.map((navlink) => (
             <Link
               className={`text-2xl font-black ${lora.className} hover:text-primary py-2 ${pathname === navlink.url ? 'border-b-2 border-b-primary transition-all' : ''}`}
