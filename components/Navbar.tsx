@@ -54,7 +54,7 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Navbar */}
-      <div className="flex md:hidden justify-between items-center px-4 py-1 border-b-2 border-b-primary overflow-hidden">
+      <div className="flex md:hidden justify-between items-center px-4 py-1 border-b-2 border-b-primary">
         <Link href="/" className="flex items-center">
           <Image
             src="/img/bigCats/Lion1.webp"
@@ -99,4 +99,6 @@ export default function Navbar() {
       </div>
     </>
   );
-}
+}  
+
+
